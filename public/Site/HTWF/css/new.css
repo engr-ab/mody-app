@@ -1,0 +1,12 @@
+.my-main-menu{
+    background: #008B8B;
+    
+}
+.my-main-menu  a{
+    color:white !important;
+
+}
+
+.my-main-menu .inner-a{
+    color:#008B8B !important;
+}

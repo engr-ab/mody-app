@@ -1,0 +1,2932 @@
+/*
+-------------------------------------------------------------------
+Skin: Yellow Business
+-------------------------------------------------------------------
+
+Table of contents
+
+1. Colors  [Row 30] 
+2. Custom classes [Row 226] 
+3. Layout and typography [Row 427] 
+4. Headers and menu [Row 524] 
+5. Titles [Row 724] 
+6. Footer [Row 809] 
+7. Components [Row 860] 
+8. Containers [Row 1526] 
+9. Mobile / responsive [Row 1701] 
+
+-------------------------------------------------------------------
+
+*/
+
+@import url('../../../external.html?link=https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+
+/*
+-------------------------------------------------------------------
+COLORS
+-------------------------------------------------------------------
+*/
+
+
+.extra-content, .nav:not(.ms-rounded) li > a:before, .boxed.advs-box-top-icon-img .advs-box-content, [class*="col-md-"].boxed,
+.advs-box-side-img hr, .mi-menu .sidebar-nav, .advs-box-top-icon-img.niche-box-post:after, .accordion-list .list-group-item:before, [class*=header-] .title-base h1:before,
+.woocommerce .product span.onsale, .circle-button, .btn.circle-button, .btn, .header-bootstrap, .header-title hr, .advs-box.boxed, i.circle, .intro-box:after, .intro-box:before,
+.advs-box-side-img hr, .call-action-box, .title-base hr, .nav.inner.ms-mini, .bg-color, .header-title.white .title-base hr, .header-animation.white .title-base hr,
+.title-base .scroll-top, .title-modern .scroll-top, i.square, .header-base, .progress-bar, .tagbox span, .niche-box-post .block-infos .block-data, .header-base .title-base h1:before {
+    background-color: #F3B007;
+}
+
+    .navbar-inner .nav.ms-minimal li a:before, .header-base.white, .advs-box-multiple.boxed .advs-box-content {
+        background-color: #F3B007 !important;
+    }
+
+    .btn:not(.btn-border):hover, .btn-primary:focus, .boxed .btn, .btn-primary.focus, .side-menu .active,
+    .white.circle-button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover,
+    .woocommerce input.button.alt:hover, .white .title-base.yellow-bar hr {
+        background-color: #f39f07 !important;
+    }
+
+    i.icon, .fullpage-menu .active i, .navbar-default .navbar-toggle:hover i, .navbar-default .navbar-toggle:focus i, header .side-menu .active > a,
+    .adv-img-button-content .caption i, .icon-menu ul.nav > li.active > a i, .icon-menu ul.nav > li:hover > a i, .active .maso-order i, .btn.btn-border i, .advs-box-top-icon:not(.boxed) i.icon,
+    .datepicker-panel > ul > li.picked, .tab-box .nav-tabs > li.active > a,
+    .advs-box-content h2:hover a, .pricing-table .pricing-price span, .datepicker-panel > ul > li.picked:hover, footer h4, .box-menu-inner .icon-box i,
+    .caption-bottom p, .mi-menu li .fa, .fullpage-arrow.arrow-circle .arrow i, .accordion-list .list-group-item > a i, .mega-menu .fa-ul .fa-li,
+    .adv-circle.adv-circle-center i, .mi-menu a > .fa, .box-steps .step-item:after, .box-steps .step-number, h6, li.panel-item .fa-li, .icon-menu .navbar-collapse ul.nav i,
+    .side-menu i, .side-menu ul a i, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .advs-box-side .icon, .advs-box-side-icon i,
+    .niche-box-testimonails h5, .title-icon i, i, .fullpage-menu.white li.active a i, .timeline > li > .timeline-label h4, .anima-button i, .pricing-table .list-group-item.pricing-price,
+    .footer-center .footer-title, .accordion-list .list-group-item > a.active, .btn-border, .btn.btn-border, .btn.circle-button.btn-border, footer a:hover, .block-quote.quote-1:before,
+    .block-quote.quote-2:before, .breadcrumb > li + li:before, .adv-img-full-content p.sub {
+        color: #F3B007;
+    }
+
+@media (max-width: 994px) {
+    .navbar-nav .open .dropdown-menu > li > a[href="#"] {
+        color: #F3B007 !important;
+    }
+}
+
+.footer-minimal .footer-title, .advs-box-top-icon.boxed .btn, .advs-box-top-icon.boxed .circle-button, .sidebar-nav ul a:hover, header .mi-menu .sidebar-nav ul a:hover,
+.woocommerce div.product p.price, .woocommerce div.product span.price, .white .text-color, .accordion-list .list-group-item > a:hover, .boxed .circle-button:hover i,
+.boxed .btn:hover i, .pagination > .active > a, .pagination > li:not(.disabled):hover > a, .boxed .circle-button, header .btn-search:hover, .advs-box h2 a:hover, .nav.ms-minimal > li.active > a {
+    color: #F3B007 !important;
+}
+
+.btn-border:hover, .btn.btn-border:hover, .btn.circle-button.btn-border:hover, .tag-row i {
+    color: #f39f07;
+}
+
+    .btn-border:hover i, .white .btn i {
+        color: #f39f07 !important;
+    }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .pagination > li:not(.disabled):hover > a i:before, .advs-box-multiple div.circle, .advs-box-multiple div.circle i {
+    border-color: #F3B007 !important;
+    color: #F3B007 !important;
+}
+
+.nav.inner.ms-rounded > li > a:hover, .nav.inner.ms-rounded > li.active a {
+    background-color: #F3B007 !important;
+    border-color: #F3B007 !important;
+}
+
+.circle-button, .btn-default, .white .btn:not(.btn-border), .btn-border, .bg-transparent .navbar-nav > li.active > a .caret:before, .bg-transparent .navbar-nav > li:hover > a .caret:before,
+.white .btn-text, .scroll-top-mobile:hover:before, .tab-box.left:not(.pills) .panel-box, .tab-box.right:not(.pills) .panel-box, .tab-box.right .nav-tabs {
+    border-color: #F3B007;
+}
+
+.boxed.advs-box-multiple .advs-box-content, .niche-box-post, .extra-content, .quote-author, .border-color, .border-color.boxed-border.boxed-border.white, .img-border, .timeline > li > .timeline-badge,
+body div.boxed-border.border-yellow, .pagination li.active a {
+    border-color: #F3B007 !important;
+}
+
+.datepicker-top-left, .datepicker-top-right {
+    border-top-color: #F3B007;
+}
+
+    .datepicker-top-left:before, .datepicker-top-right:before {
+        border-bottom-color: #F3B007;
+    }
+
+.text-color {
+    color: #f39f07;
+}
+
+.circle-button:hover, .btn:hover {
+    border-color: #f39f07 !important;
+}
+
+.btn-text, html .advs-box .btn-text:after {
+    color: #f39f07;
+    border-color: #f39f07;
+}
+
+.white.btn, .white .btn, .white .tag-row a, .header-bootstrap i.icon, .white .tag-row i, .white .advs-box-content h2 a, .white.advs-box-side-img h2 a, .advs-box-side-icon.boxed .icon-box i,
+.circle-button, .white .pagination > li.disabled > a, .white .pagination > li > a, .social-colors i, .btn.circle-button, .btn, .btn i, .circle-button, .btn.circle-button, .btn:hover,
+.btn:hover i, .btn.focus, .input-group button {
+    color: #fff;
+}
+
+    .nav.inner.ms-rounded > li > a:hover, .white .btn-text:hover, .header-base.white .breadcrumb.b a, .mi-menu .sidebar-nav ul a:hover, .white .btn.btn-border:hover, .white.advs-box-top-icon h3,
+    .nav.inner:not(.ms-rounded) > li.active, .nav.inner.ms-rounded > li.active a, .nav.inner.ms-rounded li:hover i, .ms-rounded .active .maso-order i, .white .btn.circle-button.btn-border,
+    .boxed .btn-text, .advs-box.white h3 {
+        color: #fff !important;
+    }
+
+.section-bg-image .advs-box.boxed-inverse, .white .flex-control-paging li a:hover, body .section-bg-color .advs-box-blog.boxed-inverse, .adv-img-down-text.boxed-inverse:hover, .advs-box-multiple div.circle,
+.section-bg-image [class*="col-md-"].boxed-inverse, [class*="shadow-"].boxed-inverse, .sidebar-nav ul ul, .base-box.boxed, .base-box.boxed-inverse, .advs-box.boxed-inverse {
+    background-color: #fff;
+}
+
+header .side-menu .active, .white.btn:not(.btn-border), .white .btn:not(.btn-border), .white:not([class*="header-"]) .title-base hr, .bg-white {
+    background-color: #fff !important;
+}
+
+.white .flex-control-paging li a.flex-active, .white.btn, .white .btn {
+    border-color: #fff;
+    background-color: #fff !important;
+}
+
+.white .flex-control-paging li a, body .white .flex-direction-nav a:before, .btn .caret:before, body .white .flex-direction-nav a.flex-next:before, .white .accordion-list .list-group-item > a:before {
+    border-color: #fff;
+}
+
+.white .btn:hover, .white .pagination li > a i:before, .boxed-border.white, .boxed-border.boxed-border.white, .btn.white:hover, .white .btn:hover, .btn.white, .white .btn, .boxed .btn-text,
+.white.bg-color .btn:not(.btn-border) {
+    border-color: #fff !important;
+}
+
+.white form .form-control {
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+.section-bg-color .advs-box-top-icon.boxed-inverse .icon, .section-bg-color .advs-box-top-icon .icon, .navbar-mini, .header-base:not(.bg-cover) {
+    background-color: #f7f7f7;
+}
+
+.navbar-default .navbar-nav > .active > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .navbar-nav > li:hover > a, .nav.inner > li, .box-transparent .overlaybox-inner, header .input-group-btn .btn, header .input-group-btn .btn:hover,
+.navbar-default .navbar-nav > li > a:hover, .dropdown-menu ul > li:hover > a, .navbar-main .btn-search:hover, .accordion-list .list-group-item > a:hover, .nav.inner, .bg-transparent li.active, .bg-transparent li:hover,
+.tab-box .nav-tabs li.active, .white.btn.btn-border, .white .btn.btn-border, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus,
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .nav-tabs > li.active > a {
+    background: none !important;
+}
+
+header .input-group-btn .btn {
+    border: none !important;
+}
+
+.advs-box .advs-box-content p, .advs-box-side-icon p, .maso-order i {
+    color: #7a7a7a;
+}
+
+.white.btn:not(.btn-border), .white .btn:not(.btn-border) {
+    color: #7a7a7a !important;
+}
+
+.input-group-btn .btn, .btn.btn-primary:hover {
+    background-color: #9c9c9c !important;
+    border-color: #9c9c9c !important;
+}
+
+    .input-group-btn .btn:hover, .btn.btn-primary {
+        background-color: #7a7a7a !important;
+        border-color: #7a7a7a !important;
+    }
+
+.color-4 {
+    color: #53a0d8;
+}
+
+.advs-box h3 {
+    color: #4C4C4C;
+    font-weight: 400;
+}
+
+.white ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.white ::-moz-placeholder {
+    color: #fff;
+}
+
+.white :-ms-input-placeholder {
+    color: #fff;
+}
+
+.white :-moz-placeholder {
+    color: #fff;
+}
+/*
+-------------------------------------------------------------------
+CUSTOM CLASSES
+-------------------------------------------------------------------
+*/
+.shadow-1 {
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0, 0.16);
+}
+
+.shadow-2 {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.13) !important;
+}
+
+img.shadow-2 {
+    border-radius: 5px;
+}
+
+.boxed-inverse.shadow-1, .boxed.shadow-1 {
+    border-radius: 2px;
+}
+
+.boxed-border, [class*="col-md-"].boxed-border {
+    background: none !important;
+    border: 4px solid #7a7a7a !important;
+}
+
+.opacity-8 {
+    opacity: .8;
+}
+
+.width-400 {
+    max-width: 400px;
+}
+
+.width-500 {
+    max-width: 500px;
+}
+
+.width-600 {
+    max-width: 600px;
+}
+
+.flexslider.nav-right .flex-control-nav {
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    width: auto;
+}
+
+.flexslider.nav-left .flex-control-nav {
+    text-align: left;
+    bottom: -60px;
+}
+
+.flexslider.nav-top-right .flex-control-nav {
+    top: 15px;
+    right: 15px;
+    text-align: right;
+    bottom: auto;
+}
+
+.flexslider.nav-top-right .flex-control-paging li a {
+    text-indent: 9995px;
+}
+
+.flexslider.png-boxed .img-box {
+    border: 1px solid #cecece;
+    padding: 15px;
+    width: 145px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .flexslider.png-boxed .img-box img {
+        margin: 0 !important;
+        display: inline-block !important;
+        max-width: 100% !important;
+    }
+
+.border-table.text-left:not(.table-bordered) td:first-child {
+    padding-left: 0;
+}
+
+.border-table.text-left:not(.table-bordered) td:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.border-table.text-left:not(.table-bordered) td {
+    border: none;
+    border-right: 1px solid #D2D2D2;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.img-bubble span.caption-box {
+    position: absolute;
+    top: 0;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    background: #fff;
+    z-index: 2;
+    border-radius: 200px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-bubble .caption-box:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 0;
+    border-color: #fff rgba(0, 0, 0, 0);
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: 15px;
+    left: 157px;
+    transform: rotate(-45deg);
+}
+
+.img-bubble.img-box.inner .caption {
+    margin: 0 15px;
+    width: 170px;
+    height: auto;
+    background: none;
+    color: #4e4e4e;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.img-border {
+    border: 1px solid #7a7a7a;
+}
+
+.bg-img {
+    margin: -81px -15px !important;
+    width: calc(100% + 30px);
+    max-width: 200%;
+}
+
+.section-doc {
+    border-top: 1px solid #e0e0e0;
+}
+
+body .block-quote.quote-gray:before {
+    color: #dedede;
+}
+
+@keyframes border-animation {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes border-animation-2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.intro-box {
+    position: relative;
+    background: none !important;
+}
+
+    .intro-box:after, .intro-box:before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 100%;
+        right: 0;
+        top: 0;
+        animation: border-animation 2s;
+    }
+
+    .intro-box:before {
+        left: auto;
+        right: 0;
+        width: 100%;
+        height: 10px;
+        animation: border-animation-2 2s;
+    }
+
+/*
+-------------------------------------------------------------------
+LAYOUT & TYPOGRAPHY
+-------------------------------------------------------------------
+*/
+body, p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+.text-normal, .timeline > li > .timeline-label p, .timeline > li > .timeline-label h4, .timeline-title, .form-box p {
+    font-weight: 400;
+}
+
+.text-bold, .collapse-button b, #comments h4, #comments h5, .nav-pills > li > a {
+    font-weight: 500 !important;
+}
+
+p {
+    letter-spacing: .5px;
+}
+
+.text-xs {
+    font-size: 12px !important;
+    line-height: 16px;
+}
+
+.text-s {
+    line-height: 20px;
+}
+
+.text-l {
+    line-height: 38px;
+}
+
+.text-xl {
+    line-height: 60px;
+    font-size: 45px !important;
+}
+
+hr {
+    border-top: 1px solid #d6d6d6;
+}
+
+.container.content, .section-empty > .content, .section-bg-image > .content, .section-bg-video > .content, .section-bg-animation > .content, .section-slider > .content, .section-two-blocks .content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.base-box.boxed, .base-box.boxed-inverse, .boxed-inverse, [class*="col-md-"].boxed, [class*="col-md-"].boxed-inverse, .grid-box > .grid-item.boxed-inverse, .row.vertical-row > div.boxed-inverse, .row.vertical-row > div.boxed {
+    padding: 50px;
+}
+
+    [class*="col-md-"].boxed.small-padding, [class*="col-md-"].boxed-inverse.small-padding {
+        padding: 25px;
+    }
+
+h1 + p, h2 + p, h3 + p, h4 + p {
+    margin-top: 20px;
+}
+
+h1, .h1 {
+    line-height: 50px;
+}
+
+h2, .h2 {
+    line-height: 35px;
+}
+
+h4, .h4 {
+    line-height: 23px;
+}
+
+.quote-author {
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 15px;
+    border-left: 4px solid #7d7d7d;
+}
+
+.section-bg-color hr {
+    border-color: #b3b3b3;
+}
+
+.scroll-top-mobile {
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17);
+    color: #b5b5b5;
+    width: 35px;
+    height: 35px;
+    bottom: 15px;
+    right: 15px;
+}
+/*
+-------------------------------------------------------------------
+HEADER AND MENUS
+-------------------------------------------------------------------
+*/
+
+.nav:not(.ms-rounded) li.active > a:before, .nav:not(.ms-rounded) li:hover > a:before {
+    width: 100%;
+}
+
+.nav:not(.ms-rounded) li {
+    position: relative;
+}
+
+    .nav:not(.ms-rounded) li > a:before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 0%;
+        height: 1px;
+        transition: all 0.35s ease-out;
+        -webkit-transition: all 0.35s ease-out;
+    }
+
+.navbar-brand {
+    height: 70px;
+}
+
+.nav .caret:before {
+    border-color: #7d7d7d;
+}
+
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-main .btn-search {
+    margin-top: 12px;
+    border: none;
+    background: none;
+    font-size: 24px;
+}
+
+.search-box {
+    margin: 85px 0 0 0;
+}
+
+.navbar-mini {
+    border: none;
+}
+
+    .navbar-mini .navbar-left {
+        padding-top: 10px;
+    }
+
+    .navbar-mini span i {
+        font-size: 13px;
+        transform: translateY(-0.5px);
+        display: inline-block;
+        color: #a9a9a9;
+    }
+
+    .navbar-mini span {
+        padding: 0 7px;
+        font-weight: 400;
+        letter-spacing: .5px;
+        opacity: .9;
+    }
+
+    .navbar-mini > .container {
+        padding-left: 225px;
+    }
+
+@media (min-width: 995px) {
+    .navbar-mini:not(.hidden) + .navbar-main .navbar-header {
+        margin-top: -22px;
+        padding-left: 55px;
+        padding-right: 25px;
+        margin-left: -55px;
+        background: #fff;
+        position: relative;
+    }
+
+        .navbar-mini:not(.hidden) + .navbar-main .navbar-header:after {
+            position: absolute;
+            content: '';
+            background-color: #f5f5f5;
+            height: 90px;
+            width: 60px;
+            right: -10px;
+            left: auto;
+            top: -73px;
+            transform: rotate(125deg);
+        }
+
+        .navbar-mini:not(.hidden) + .navbar-main .navbar-header:before {
+            position: absolute;
+            content: '';
+            background-color: #fff;
+            height: 22px;
+            width: 6000px;
+            right: 0;
+            top: 0px;
+            z-index: 0;
+        }
+}
+
+.navbar-big-logo .navbar-mini:not(.hidden) + .navbar-main .navbar-header {
+    padding-right: 0;
+}
+
+.navbar-big-logo .navbar-main .navbar-header:after {
+    display: none;
+}
+
+.navbar-mini:not(.hidden) + .navbar-main .navbar-brand {
+    margin-top: 10px;
+}
+
+.nav.ms-minimal > li > a {
+    border-bottom: none;
+    font-weight: 500;
+}
+
+.nav.maso-filters {
+    margin-bottom: 30px;
+}
+
+    .nav.maso-filters a {
+        padding-top: 0;
+    }
+
+.inner.ms-minimal li a {
+    padding-top: 0;
+}
+
+.mega-menu a {
+    height: 32px;
+    margin-bottom: 7px;
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mega-menu .nav-tabs > li > a {
+    padding: 15px 30px !important;
+    height: 50px;
+}
+
+.mega-tabs .tab-box .panel.active {
+    margin: 0 5px;
+}
+
+.mega-menu h5 {
+    margin-bottom: 21px;
+    font-weight: 400;
+}
+
+.mega-tabs .nav-tabs {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+    .mega-tabs .nav-tabs li a:before {
+        bottom: -1px;
+    }
+
+.navbar-main .navbar-form .form-control {
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-main .navbar-form .btn-search {
+    font-size: 13px;
+    margin-top: 0;
+    border-bottom: 1px solid #e6e6e6;
+    background: #f5f5f5;
+}
+
+header .navbar-main form.navbar-form {
+    margin-top: 18px;
+    padding: 0;
+}
+
+header .side-menu > li > a {
+    font-weight: 500;
+}
+
+.side-menu-fixed .brand {
+    text-align: left;
+    padding: 25px 15px;
+}
+
+header .mi-menu ul li > a, header .sidebar-nav .panel-item > span {
+    padding: 10px 15px;
+}
+/*
+-------------------------------------------------------------------
+TITLES
+-------------------------------------------------------------------
+*/
+.title-base {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+[class*=header-] .title-base {
+    text-align: left;
+    display: block;
+}
+
+    [class*=header-] .title-base h1, [class*=header-] .title-icon h2, [class*=header-] .title-icon h1, [class*=header-] .title-base.title-small h2 {
+        font-size: 50px;
+        font-weight: 400;
+        margin-top: 5px;
+        position: relative;
+    }
+
+    [class*=header-] .title-base p, [class*=header-] div.title-icon p {
+        max-width: 500px;
+    }
+
+.header-base .title-base {
+    display: block;
+}
+
+    .header-base .title-base h1 {
+        font-size: 30px;
+        font-weight: 400;
+        position: relative;
+        color: #4C4C4C;
+    }
+
+[class*=header-] .title-base p {
+    max-width: 500px;
+    margin-top: 50px;
+    color: #4C4C4C;
+}
+
+.title-base hr {
+    width: 100%;
+    opacity: 0;
+    height: 5px;
+}
+
+.header-base .breadcrumb.b a, .header-base .breadcrumb li {
+    color: #4C4C4C;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.title-base h1:before {
+    content: '';
+    position: absolute;
+    height: 0px;
+    width: 150px;
+    bottom: -20px;
+}
+
+.title-base.text-left hr, .title-base.text-left hr, [class*=header-] .title-base hr {
+    opacity: 1;
+}
+
+[class*=header-] .title-base hr {
+    display: none;
+}
+
+.title-base p {
+    margin-top: 0;
+}
+
+.title-base.text-left p {
+    margin-left: 1px;
+    margin-bottom: 3px;
+}
+
+.title-base + .accordion-list > .list-group-item:first-child {
+    border-top: none;
+}
+
+
+/*
+-------------------------------------------------------------------
+FOOTER
+-------------------------------------------------------------------
+*/
+
+footer {
+    border-top: 1px solid #E6E6E6;
+}
+
+    footer p, footer a, footer li {
+        opacity: .8;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    footer a {
+        line-height: 25px;
+    }
+
+    footer h3 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 22px;
+        color: #fff;
+    }
+
+    footer .container {
+        padding: 80px 15px;
+    }
+
+    footer .copy-row .copy-text {
+        border-top: 1px solid #cecece;
+        padding: 15px;
+        margin: auto;
+        font-weight: 400;
+        color: #a2a2a2;
+        letter-spacing: .3px;
+        float: none;
+    }
+
+    footer .fa-ul .fa-li {
+        font-weight: 600;
+    }
+
+    footer ul {
+        padding-left: 16px;
+    }
+
+    footer .social-group {
+        margin-bottom: 0;
+    }
+
+/*
+-------------------------------------------------------------------
+COMPONENTS
+-------------------------------------------------------------------
+*/
+.accordion-list .list-group-item > a {
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+    .accordion-list .list-group-item > a:before, .advs-box .btn-text:after, .box-steps .step-item:after {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-left: -21px;
+        top: 19px;
+        position: absolute;
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-right-width: 2px;
+        border-right-style: solid;
+        content: "";
+        width: 6px;
+        height: 6px;
+        transition: all .15s;
+        border-color: rgba(93, 93, 93, 0.5);
+    }
+
+.accordion-list .list-group-item > .panel > .inner {
+    padding: 0px 15px 10px 20px;
+}
+
+.accordion-list .list-group-item > a.active:before {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.btn-sm i {
+    font-size: 14px;
+    transform: translateY(1px);
+    display: inline-block;
+}
+
+.btn-xs {
+    font-size: 11px;
+    line-height: 18px;
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+
+    .btn-xs.btn-border {
+        border-width: 1px;
+    }
+
+.load-more-maso.btn i, .load-more-grid.btn i {
+    font-size: 11px;
+    margin-left: 5px;
+    transform: translateY(0px);
+}
+
+.btn-text {
+    border-bottom-style: solid;
+}
+
+.btn-border, .btn-border, .white .btn-border {
+    border-width: 1px;
+    font-weight: 500;
+}
+
+.btn.white:hover, .white .btn:hover {
+    opacity: .8;
+}
+
+.progress-circle .inner-circle .counter-circle {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.progress-circle .inner-circle .main {
+    line-height: 18px;
+    font-size: 11px;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.progress-circle .inner-circle .subtitle {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5px 0 0 0;
+}
+
+.inner-circle hr {
+    display: none;
+}
+
+.table:not(.grid-table) th {
+    font-weight: 500;
+}
+
+table.table:not(.grid-table) > tbody > tr > td, table.table:not(.grid-table) > tbody > tr > th {
+    font-size: 13px;
+    padding: 15px;
+}
+
+.form-box .form-control {
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    border-radius: 0;
+    background: none;
+}
+
+.comment-list .name {
+    font-weight: 500;
+}
+
+.comment-list img {
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.advs-box-top-icon-img.boxed .advs-box-content, .advs-box-top-icon-img.boxed-inverse .advs-box-content {
+    padding: 30px;
+}
+
+.section-bg-color .advs-box.boxed, .section-bg-color .advs-box.boxed-inverse, .section-bg-color .adv-img-down-text.boxed-inverse, .section-bg-color .niche-box-testimonails-cloud p {
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+    border: 0 solid #eee;
+}
+
+.adv-img-full-content h2 {
+    line-height: 19px;
+}
+
+.advs-box {
+    overflow: hidden;
+}
+
+    .advs-box .btn-text {
+        border: none;
+        font-weight: 400;
+        position: relative;
+    }
+
+        .advs-box .btn-text:after {
+            margin-left: 7px;
+            top: 9px;
+            right: -13px;
+        }
+
+.advs-box-top-icon-img .img-box {
+    margin: 1px;
+}
+
+.img-box.adv-img-half-content .caption, .img-box.adv-img-side-content .caption {
+    padding: 20px 20px;
+}
+
+.adv-img-side-content .btn, .adv-img-side-content .btn-text {
+    margin-top: 10px;
+}
+
+.adv-img h2, .adv-circle h2, .caption-bottom h2 {
+    font-weight: 500;
+}
+
+div.adv-img p {
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.niche-box-post .text-m {
+    font-size: 14px !important;
+    line-height: 22px;
+}
+
+.niche-box-post h2 {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.advs-box h2 a {
+    color: #4C4C4C;
+    font-weight: 400;
+}
+
+.niche-box-post .block-infos {
+    width: 250px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+    .niche-box-post .block-infos .block-data {
+        display: block;
+        float: left;
+        height: 30px;
+        border: none;
+    }
+
+.block-infos .block-comment {
+    display: none;
+}
+
+.niche-box-post .block-infos p.bd-day {
+    display: inline-block;
+    padding: 5px 0px 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.niche-box-post .block-infos .bd-month {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 9px;
+    color: #fff;
+}
+
+.niche-box-post .img-box {
+    margin: 0;
+}
+
+.advs-box-top-icon-img.niche-box-post {
+    border-top: 2px solid #7a7a7a;
+}
+
+.niche-box-post .tag-row {
+    margin-bottom: 15px;
+}
+
+.niche-box-blog p.excerpt {
+    font-size: 14px;
+}
+
+.niche-box-blog .block-infos {
+    position: relative;
+    padding-right: 0;
+    text-align: left;
+    width: 75px;
+}
+
+    .niche-box-blog .block-infos:after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        border-right: 1px solid #d0d0d0;
+        height: 100%;
+        top: 0;
+        right: 22px;
+    }
+
+.niche-box-blog .block-data {
+    border: none;
+}
+
+.niche-box-blog .bd-day {
+    font-weight: 400;
+}
+
+.niche-box-blog .bd-month {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.niche-box-blog a.btn, .niche-box-blog a.btn-text {
+    margin-top: 0;
+}
+
+.extra-content {
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: none;
+    border-left: none;
+    color: #585858;
+    border-top: 1px solid #7a7a7a;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.adv-img-down-text h2 a {
+    font-weight: 400;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.adv-img-down-text .caption-bottom p {
+    margin-top: 0;
+}
+
+.adv-img-down-text.boxed-inverse .caption-bottom {
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+
+.section-bg-color .adv-img-down-text.boxed-inverse .caption-bottom {
+    border: none;
+}
+
+.niche-box-testimonails-cloud p {
+    border-radius: 0;
+    text-align: left;
+}
+
+.niche-box-testimonails-cloud .name-box .subtitle {
+    padding-top: 16px;
+    font-weight: 400;
+}
+
+.adv-img-classic-box .caption {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%,rgba(0, 0, 0, 0) 60%) !important;
+    transform: translate3d(0,0,0);
+}
+
+.adv-img-classic-box > .img-box {
+    background: #000;
+}
+
+.adv-img-classic-box:hover .img-box img {
+    opacity: .5 !important;
+}
+
+.adv-img-classic-box .caption-inner h2 {
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+
+.advs-box-top-icon {
+    overflow: visible;
+    position: relative;
+}
+
+    .advs-box-top-icon:not(.boxed) {
+        padding-top: 27px !important;
+    }
+
+    .advs-box-top-icon.boxed-inverse, .advs-box-side-icon.boxed-inverse {
+        background: none;
+        border-style: solid !important;
+        border-width: 1px;
+        border-color: #dcdcdc;
+    }
+
+    .advs-box-top-icon:not(.boxed) .icon {
+        box-shadow: none !important;
+        font-size: 55px;
+        height: 60px;
+        width: 110px;
+        padding: 0;
+        margin: -70px 0 0 -56px;
+        background: none;
+    }
+
+    .advs-box-top-icon.text-left .icon {
+        text-align: left;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .advs-box-top-icon.text-left.boxed .icon, .advs-box-top-icon.text-left.boxed-inverse .icon {
+        left: 13px;
+        text-align: center;
+    }
+
+    .advs-box-top-icon.boxed-inverse .icon {
+        background: #fff;
+    }
+
+html body .advs-box-top-icon h3 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.list-items .list-item {
+    border-bottom-style: solid;
+}
+
+    .list-items .list-item:first-child {
+        padding-top: 0;
+    }
+
+    .list-items .list-item h3, ul.list-texts li b {
+        font-weight: 500;
+    }
+
+    .list-items .list-item:hover {
+        background: none;
+    }
+
+    .list-items .list-item span {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .list-items .list-item p {
+        line-height: 19px;
+        padding-top: 5px;
+    }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+ul li .fa-li.fa-square {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.icon-box-cell i.text-xl {
+    width: 55px;
+}
+
+.white .icon-box:not(.icon-box-top-bottom) .icon-box-cell:first-child, div.white .countdown > div:after {
+    border-right: 2px solid rgba(255, 255, 255, 0.31);
+}
+
+.icon-box:not(.icon-box-top-bottom) .icon-box-cell:first-child {
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 2px solid rgba(123, 123, 123, 0.25);
+}
+
+.icon-box.icon-box-right:not(.icon-box-top-bottom) .icon-box-cell:first-child {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+}
+
+.icon-box.icon-box-right:not(.icon-box-top-bottom) .icon-box-cell:last-child {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 2px solid rgba(123, 123, 123, 0.25);
+}
+
+.icon-box.icon-box-top-bottom .icon-box-cell > i {
+    margin: 0px 0 15px 0;
+}
+
+.icon-box-top-bottom .icon-box-cell label {
+    margin-bottom: 5px;
+}
+
+
+
+.advs-box-multiple .circle > i {
+    line-height: 45px;
+    height: 45px;
+    width: 45px;
+}
+
+
+.advs-box-multiple .advs-box-content {
+    padding: 30px;
+}
+
+.advs-box-multiple.boxed-inverse .advs-box-content {
+    border: 1px solid #dcdcdc;
+    border-top: none;
+}
+
+.advs-box-multiple div.circle {
+    border: none;
+    border-radius: 3px;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    right: 20px;
+    line-height: 28px;
+    border: 1px solid #a2a2a2;
+}
+
+    .advs-box-multiple div.circle span {
+        line-height: 16px;
+        color: #717171;
+        font-weight: 400;
+    }
+
+.section-bg-color .advs-box-multiple.boxed-inverse .advs-box-content {
+    border: none;
+}
+
+.progress {
+    overflow: visible;
+    height: 3px;
+    background-color: #e8e8e8;
+}
+
+.progress-bar {
+    box-shadow: none !important;
+    color: #30353b;
+    height: 3px;
+}
+
+    .progress-bar > span {
+        padding: 2px 0 2px 5px;
+        width: 60px;
+        transform: translateY(-31px);
+        border-radius: 3px;
+        display: block;
+        white-space: nowrap;
+        font-weight: 500;
+        letter-spacing: 1px;
+        float: right;
+        font-size: 12px;
+        background: #2d2d2d;
+        color: #fff;
+        text-align: center;
+    }
+
+.pricing-table {
+    overflow: hidden;
+}
+
+    .pricing-table .pricing-price.list-group-item {
+        font-weight: 500;
+        font-size: 45px;
+        padding-top: 45px;
+    }
+
+    .pricing-table .list-group-item:nth-child(even) {
+        background-color: #fff;
+    }
+
+    .pricing-table .list-group-item {
+        border-bottom: none;
+        font-size: 13px;
+    }
+
+    .pricing-table h3 {
+        font-weight: 400;
+    }
+
+    .pricing-table .btn {
+        margin-top: 15px;
+        padding: 10px 25px;
+        margin-bottom: 40px;
+    }
+
+    .pricing-table .pricing-price span {
+        font-size: 18px;
+        display: inline-block;
+        transform: translateY(-2px);
+    }
+
+.pricing-table-big, [class*="section-"] > div > .row:first-child > div > .pricing-table-big {
+    margin: -15px 0 0 0;
+}
+
+.niche-box-team .content-box hr {
+    display: none;
+}
+
+.niche-box-team .content-box h2 {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.niche-box-team .content-box h4 {
+    font-size: 13px;
+}
+
+.advs-box-side-icon .icon-box i {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: left;
+    width: 65px;
+    margin-left: 1px;
+    height: 35px;
+}
+
+    .advs-box-side-icon .icon-box i.text-xl {
+        margin-right: 20px;
+        line-height: 45px;
+    }
+
+.advs-box-side-icon .icon-box {
+    padding-right: 0;
+    vertical-align: top;
+}
+
+    .advs-box-side-icon .icon-box + .caption-box {
+        position: relative;
+    }
+
+        .advs-box-side-icon .icon-box + .caption-box:before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            height: calc(100% - 4px);
+            width: 1px;
+            margin-left: -13px;
+            margin-top: 2px;
+            background: #d6d6d6;
+        }
+
+.advs-box-side h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.advs-box-side hr {
+    display: none;
+}
+
+[class*="boxed-"].advs-box-side .col-md-4 {
+    margin: -25px;
+    padding-right: 40px;
+}
+
+[class*="boxed-"].advs-box-side .img-box {
+}
+
+.timeline > li > .timeline-panel {
+    border: none;
+    border-right: 1px solid #D2D2D2;
+    background: none;
+    padding: 0 20px 0 0;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 0 0 20px;
+    border-right: none;
+    border-left: 1px solid #D2D2D2;
+}
+
+.timeline:before {
+    background: none;
+}
+
+.timeline > li > .timeline-badge {
+    border-width: 2px;
+    background: #fff;
+}
+
+.timeline > li {
+    margin-bottom: 50px;
+}
+
+    .timeline > li:last-child {
+        margin-bottom: 0;
+    }
+
+.niche-box-team:hover .img-box img {
+    transform: translateY(25px) scale(1.2) !important;
+}
+
+.porfolio-bar a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.counter-box-icon > div {
+    text-align: left;
+}
+
+/*
+-------------------------------------------------------------------
+CONTAINERS
+-------------------------------------------------------------------
+*/
+.nav-tabs > li > a, .nav-tabs > li.active > a, .nav-tabs > li.active:hover > a, .nav-tabs > li:hover > a {
+    padding: 5px 0 30px 0;
+    border: none !important;
+    background: none;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nav-tabs > li {
+    margin-right: 30px;
+}
+
+.tab-box.inverse .panel {
+    padding-top: 0;
+    border-top: 0;
+}
+
+.inverse .nav-tabs > li > a, .inverse .nav-tabs > li:hover > a {
+    padding: 30px 0 5px 0;
+}
+
+.inverse .nav:not(.ms-rounded) li > a:before {
+    top: -1px;
+    bottom: auto;
+}
+
+.nav-tabs > li > a i {
+    margin: 0 10px 0 0;
+}
+
+.tab-box.inverse .nav-tabs li.active a {
+    border-top: none;
+}
+
+.tab-box > .panel, .tab-box > .panel-box > .panel {
+    border: none;
+    padding: 25px 0;
+}
+
+.nav-pills > li a:before {
+    display: none;
+}
+
+.tab-box.left .panel-box .panel, .tab-box.right .panel-box .panel {
+    border: none;
+    padding: 0 0 0 15px;
+}
+
+.left .nav-tabs > li > a, .right .nav-tabs > li > a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.tab-box.right .panel-box .panel {
+    padding: 0 15px 0 0;
+}
+
+.tab-box.right .nav-tabs > li > a {
+    padding-left: 15px;
+}
+
+.flexslider .flex-direction-nav li a:before {
+    margin-top: 3px;
+}
+
+.flexslider .flex-direction-nav li a.flex-prev:before {
+    margin-left: -15px;
+}
+
+.maso-box.row, .grid-box.row {
+    margin: -7.5px;
+    width: calc(100% + 15px);
+}
+
+.maso-box > .maso-item, .grid-box > .grid-item {
+    padding: 7.5px;
+}
+
+.maso-30 .maso-box > .maso-item, .grid-30 .grid-box > .grid-item {
+    padding: 15px;
+}
+
+.maso-30 .maso-box.row, .grid-30 .grid-box.row {
+    margin: -15px;
+    width: calc(100% + 30px);
+}
+
+.flex-control-paging li a, .header-slider .flex-control-paging li a {
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(93, 93, 93, 0.5);
+}
+
+    .flex-control-paging li a.flex-active, .header-slider .flex-control-paging li a.flex-active {
+        background: #949494;
+        border-color: #949494;
+    }
+
+.box-transparent .overlaybox-inner {
+    box-shadow: none;
+    padding: 0 5px;
+}
+
+.box-steps .step-number {
+    opacity: 1;
+}
+
+.box-steps .step-item:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    right: 29px;
+    top: 50%;
+    margin-top: -38px;
+    height: 70px;
+    background: rgba(113, 113, 113, 0.5);
+}
+
+.box-steps .step-item:after {
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    margin-right: 15px;
+    background: #fff;
+    border-top-width: 1px;
+    border-right-width: 1px;
+}
+
+.box-steps .step-item:last-child:before {
+    display: none;
+}
+
+.section-bg-color .box-steps .step-item:after {
+    background: #f7f7f7;
+}
+
+.mfp-arrow-right:before {
+    margin: 24px 0 0 9px;
+}
+
+.fixed-area.active .nav.inner.ms-rounded li a {
+    background: #fff;
+    box-shadow: 0 3px 10px hsla(0, 0%, 0%, 0.22);
+    transition: box-shadow .3s;
+}
+
+.pagination li a, .pagination li.active a {
+    font-weight: 400;
+    background: none;
+}
+
+.pagination li:not(.active) a {
+    border: none !important;
+    background: none;
+}
+
+.pagination-sm > li > a {
+    font-size: 13px;
+}
+
+.maso-list .list-nav, .grid-list .list-nav {
+    margin-top: 35px;
+}
+
+.album-box .caption h2 {
+    font-size: 17px;
+}
+
+/*
+-------------------------------------------------------------------
+RESPONSIVE
+-------------------------------------------------------------------
+*/
+.navbar-toggle > i {
+    margin-top: 13px;
+}
+
+@media (max-width:994px) {
+    header .nav li > .mega-menu, .search-box, .flexslider.nav-top-right {
+        margin: 0 !important;
+    }
+
+    header .navbar-main .col + .col ul, header .navbar-main .dropdown a + ul, .nav-tabs > li:first-child > a, .box-steps .step-item:first-child {
+        padding-top: 0 !important;
+    }
+
+    .box-steps .step-item:last-child {
+        padding-bottom: 0 !important;
+    }
+
+    .nav-tabs > li {
+        margin-right: 0;
+    }
+
+    .title-base.text-left, .vertical-row > div, .row.vertical-row > div, .advs-box-side-icon .icon-box, .advs-box-side-icon .caption-box, .advs-box-side, .advs-box-side-icon p, .advs-box.advs-box-side p,
+    .section .background-page, .section .content, .section .container {
+        text-align: left !important;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    header .navbar-main ul {
+        padding: 10px 0 0 0 !important;
+    }
+
+    .mega-menu .nav-tabs > li > a {
+        padding-left: 15px !important;
+    }
+
+    .text-m-xs {
+        font-size: 25px !important;
+        line-height: 35px;
+    }
+
+    .text-m-sm {
+        font-size: 30px !important;
+        line-height: 35px;
+    }
+
+    .grid-table td {
+        padding: 15px !important;
+    }
+
+    .grid-table {
+        margin: -15px;
+        width: calc(100% + 30px);
+    }
+
+    .nav.maso-filters a {
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar-inner .navbar-toggle {
+        border: 1px solid #e0e0e0;
+    }
+
+    .overlaybox-side .overlaybox-inner {
+        padding: 30px;
+    }
+
+    .adv-img h2, .adv-circle h2, .caption-bottom h2 {
+        line-height: 25px;
+    }
+
+    h2, .h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    h3 {
+        line-height: 27px;
+    }
+
+    .nav-tabs > li {
+        border: none;
+    }
+
+        .nav-tabs > li > a, .nav-tabs > li.active > a, .nav-tabs > li.active:hover > a, .nav-tabs > li:hover > a {
+            padding: 15px 0 15px 0;
+        }
+
+    a.img-bubble {
+        padding-bottom: 140px;
+        margin-bottom: -140px !important;
+    }
+
+    .box-steps .step-item:before, .section-bg-color .box-steps .step-item:after {
+        display: none;
+    }
+
+    .box-steps .step-item {
+        padding: 15px 50px;
+    }
+
+    .flexslider.nav-right .flex-control-nav {
+        bottom: -14px;
+    }
+
+    [class*=header-] .title-base h1, [class*=header-] .title-icon h2, [class*=header-] .title-icon h1, [class*=header-] .title-base.title-small h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    [class*=header-] .title-base p, [class*=header-] div.title-icon p {
+        margin-top: 40px;
+    }
+
+    .header-title, .header-video, .header-animation, .header-slider {
+        height: 205px !important;
+    }
+
+    .header-base {
+        padding-bottom: 20px;
+    }
+
+    footer .container {
+        padding: 80px 0;
+    }
+
+    .timeline > li > .timeline-label {
+        position: absolute;
+        left: auto;
+        right: 0;
+        max-width: 65px;
+        margin: 0;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-label {
+        left: 0;
+        right: auto;
+        text-align: right;
+    }
+
+    .timeline > li > .timeline-badge {
+        display: none;
+    }
+
+    .timeline > li > .timeline-label p {
+        font-size: 12px;
+        white-space: normal;
+    }
+
+    .timeline > li > .timeline-label h4 {
+        font-size: 16px;
+    }
+
+    header .dropdown-submenu a + .dropdown-menu a {
+        padding-left: 20px;
+    }
+
+    .comment-list img {
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    .comment-list .col-md-10 {
+        padding-left: 60px;
+    }
+
+    .img-box.adv-img-side-content .caption {
+        min-height: 180px;
+    }
+
+    .header-base .breadcrumb, .header-bootstrap .breadcrumb {
+        text-align: right;
+    }
+
+    .advs-box-side-icon .icon-box, .advs-box-side-icon .caption-box {
+        display: table-cell;
+    }
+
+    .pricing-table-big {
+        margin: 0 0 20px 0 !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .pagination-lg > li > a span {
+        font-size: 15px;
+    }
+
+    .pagination-lg > li > a, .pagination-lg > li > span {
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+
+    .header-base .breadcrumb, .header-bootstrap .breadcrumb {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#side {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(images/side.html);
+    background-position: right top;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 100%;
+    z-index: 9;
+}
+.column-3 {
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+.column-2 {
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+.form-bordered {
+    border: 1px solid #c1c1c1;
+    padding: 20px;
+}
+.form-bordered .form-control {
+    border: 1px solid #e6e6e6;
+}
+/* color1 */
+.navbar-default .navbar-nav > .color1.active > a, .dropdown-menu > li.color1 > a:hover, .dropdown-menu > li.color1 > a:focus, .navbar-nav > li.color1:hover > a, .navbar-default .navbar-nav > li.color1 > a:hover, .dropdown-menu ul > li.color1:hover > a, .nav.inner {
+    color: #0795f3;
+}
+.color1 .extra-content, .color1 .nav:not(.ms-rounded) li > a:before, .color1 .boxed.advs-box-top-icon-img .advs-box-content, .color1 [class*="col-md-"].boxed, .color1 .advs-box-side-img hr, .color1 .mi-menu .sidebar-nav, .color1 .advs-box-top-icon-img.niche-box-post:after, .color1 .accordion-list .list-group-item:before, .color1 [class*=header-] .title-base h1:before, .color1 .woocommerce .product span.onsale, .color1 .circle-button, .color1 .btn.circle-button, .color1 .btn, .color1 .header-bootstrap, .color1 .header-title hr, .color1 .advs-box.boxed, .color1 .intro-box:after, .color1 .intro-box:before, .color1 .advs-box-side-img hr, .color1 .call-action-box, .color1 .title-base hr, .color1 .nav.inner.ms-mini, .color1 .bg-color, .color1 .header-title.white .title-base hr, .color1 .header-animation.white .title-base hr, .color1 .title-base .scroll-top, .color1 .title-modern .scroll-top, .color1 i.square, .color1 .header-base, .color1 .progress-bar, .color1 .tagbox span, .color1 .niche-box-post .block-infos .block-data, .color1 .header-base .title-base h1:before 
+{
+    background-color: #0795f3;
+}
+.color1 i.icon, .color1 .fullpage-menu .active i, .color1 .navbar-default .navbar-toggle:hover i, .color1 .navbar-default .navbar-toggle:focus i, .color1 header .side-menu .active > a, .color1 .adv-img-button-content .caption i, .color1 .icon-menu ul.nav > li.active > a i, .color1 .icon-menu ul.nav > li:hover > a i, .color1 .active .maso-order i, .color1 .btn.btn-border i, .color1 .advs-box-top-icon:not(.boxed) i.icon, .color1 .datepicker-panel > ul > li.picked, .color1 .tab-box .nav-tabs > li.active > a, .color1 .advs-box-content h2:hover a, .color1 .pricing-table .pricing-price span, .color1 .datepicker-panel > ul > li.picked:hover, .color1 footer h4, .color1 .box-menu-inner .icon-box i, .color1 .caption-bottom p, .color1 .mi-menu li .fa, .color1 .fullpage-arrow.arrow-circle .arrow i, .color1 .accordion-list .list-group-item > a i, .color1 .mega-menu .fa-ul .fa-li, .color1 .adv-circle.adv-circle-center i, .color1 .mi-menu a > .fa, .color1 .box-steps .step-item:after, .color1 .box-steps .step-number, .color1 h6, .color1 li.panel-item .fa-li, .color1 .icon-menu .navbar-collapse ul.nav i, .color1 .side-menu i, .color1 .side-menu ul a i, .color1 .bs-menu li:hover > a, .color1 .bs-menu li.active > a, .color1 .hamburger-button:hover, .color1 .img-box.adv-circle i, .color1 .advs-box-side .icon, .color1 .advs-box-side-icon i, .color1 .niche-box-testimonails h5, .color1 .title-icon i, .color1 .fullpage-menu.white li.active a i, .color1 .timeline > li > .timeline-label h4, .color1 .anima-button i, .color1 .pricing-table .list-group-item.pricing-price, .color1 .footer-center .footer-title, .color1 .accordion-list .list-group-item > a.active, .color1 .btn-border, .color1 .btn.btn-border, .color1 .btn.circle-button.btn-border, .color1 footer a:hover, .color1 .block-quote.quote-1:before, .color1 .block-quote.quote-2:before, .color1 .breadcrumb > li + li:before, .color1 .adv-img-full-content p.sub {
+    color: #0795f3;
+}
+.color1 .circle-button, .color1 .btn-default, .color1 .white .btn:not(.btn-border), .color1 .btn-border, .color1 .bg-transparent .navbar-nav > li.active > a .caret:before, .color1 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color1 .white .btn-text, .color1 .scroll-top-mobile:hover:before, .color1 .tab-box.left:not(.pills) .panel-box, .color1 .tab-box.right:not(.pills) .panel-box, .color1 .tab-box.right .nav-tabs {
+    border-color: #4fb0f1 !important;
+    color: #fff !important;
+}
+.color1 .boxed.advs-box-multiple .advs-box-content, .color1 .niche-box-post, .color1 .extra-content, .color1 .quote-author, .color1 .border-color, .color1 .border-color.boxed-border.boxed-border.white, .color1 .img-border, .color1 .timeline > li > .timeline-badge, .color1 body div.boxed-border.border-yellow, .color1 .pagination li.active a {
+    border-color: #0795f3 !important;
+}
+.color1 .text-color {
+    color: #4fb0f1;
+    font-weight: 400;
+}
+.color1 .btn-border:hover, .color1 .btn.btn-border:hover, .color1 .btn.circle-button.btn-border:hover, .color1 .tag-row i {
+    color: #0795f3;
+}
+
+.color1 .btn-border:hover i, .color1 .white .btn i {
+    color: #4fb0f1 !important;
+}
+.color1 .btn:not(.btn-border):hover, .color1 .btn-primary:focus, .color1 .boxed .btn, .color1 .btn-primary.focus, .color1 .side-menu .active,
+.color1 .white.circle-button:hover, .color1 .woocommerce #respond input#submit.alt:hover, .color1 .woocommerce a.button.alt:hover, .color1 .woocommerce button.button.alt:hover,
+.color1 .woocommerce input.button.alt:hover, .color1 .white .title-base.yellow-bar hr {
+    background-color: #0795f3 !important;
+}
+.color1 .circle-button:hover, .color1 .btn:hover {
+    border-color: #0795f3 !important;
+}
+.color1 [class*="col-md-"].boxed,
+.color1 .title-base hr {
+    background-color: #4fb0f1;
+}
+.color1 [class*="col-md-"].boxed.bg2
+{
+    background-color: #ddeeff;
+    color: #0538ca;
+}
+.color1 .white.boxed.bg2 .btn:not(.btn-border) {
+    background-color: #09c4ef !important;
+    border-color: #ddeeff !important;
+    color: #fff !important;
+}
+.color1 .white.boxed.bg2 form .form-control {
+    border-color: #172db1 !important;
+    color: #0017a3 !important;
+}
+.color1 .white.boxed.bg2 form .form-control::placeholder { /* Microsoft Edge */
+    color: #0538ca;
+}
+.color1 .white.boxed.bg2 h2 {
+    color: #0538ca;
+}
+/* Fin color1 */
+/* color2 */
+.navbar-default .navbar-nav > .color2.active > a, .dropdown-menu > li.color2 > a:hover, .dropdown-menu > li.color2 > a:focus, .navbar-nav > li.color2:hover > a, .navbar-default .navbar-nav > li.color2 > a:hover, .dropdown-menu ul > li.color2:hover > a, .nav.inner {
+    color: #0058c2;
+}
+.color2 .extra-content, .color2 .nav:not(.ms-rounded) li > a:before, .color2 .boxed.advs-box-top-icon-img .advs-box-content, .color2 [class*="col-md-"].boxed, .color2 .advs-box-side-img hr, .color2 .mi-menu .sidebar-nav, .color2 .advs-box-top-icon-img.niche-box-post:after, .color2 .accordion-list .list-group-item:before, .color2 [class*=header-] .title-base h1:before, .color2 .woocommerce .product span.onsale, .color2 .circle-button, .color2 .btn.circle-button, .color2 .btn, .color2 .header-bootstrap, .color2 .header-title hr, .color2 .advs-box.boxed, .color2 .intro-box:after, .color2 .intro-box:before, .color2 .advs-box-side-img hr, .color2 .call-action-box, .color2 .title-base hr, .color2 .nav.inner.ms-mini, .color2 .bg-color, .color2 .header-title.white .title-base hr, .color2 .header-animation.white .title-base hr, .color2 .title-base .scroll-top, .color2 .title-modern .scroll-top, .color2 i.square, .color2 .header-base, .color2 .progress-bar, .color2 .tagbox span, .color2 .niche-box-post .block-infos .block-data, .color2 .header-base .title-base h1:before 
+{
+    background-color: #0058c2;
+}
+.color2 i.icon, .color2 .fullpage-menu .active i, .color2 .navbar-default .navbar-toggle:hover i, .color2 .navbar-default .navbar-toggle:focus i, .color2 header .side-menu .active > a, .color2 .adv-img-button-content .caption i, .color2 .icon-menu ul.nav > li.active > a i, .color2 .icon-menu ul.nav > li:hover > a i, .color2 .active .maso-order i, .color2 .btn.btn-border i, .color2 .advs-box-top-icon:not(.boxed) i.icon, .color2 .datepicker-panel > ul > li.picked, .color2 .tab-box .nav-tabs > li.active > a, .color2 .advs-box-content h2:hover a, .color2 .pricing-table .pricing-price span, .color2 .datepicker-panel > ul > li.picked:hover, .color2 footer h4, .color2 .box-menu-inner .icon-box i, .color2 .caption-bottom p, .color2 .mi-menu li .fa, .color2 .fullpage-arrow.arrow-circle .arrow i, .color2 .accordion-list .list-group-item > a i, .color2 .mega-menu .fa-ul .fa-li, .color2 .adv-circle.adv-circle-center i, .color2 .mi-menu a > .fa, .color2 .box-steps .step-item:after, .color2 .box-steps .step-number, .color2 h6, .color2 li.panel-item .fa-li, .color2 .icon-menu .navbar-collapse ul.nav i, .color2 .side-menu i, .color2 .side-menu ul a i, .color2 .bs-menu li:hover > a, .color2 .bs-menu li.active > a, .color2 .hamburger-button:hover, .color2 .img-box.adv-circle i, .color2 .advs-box-side .icon, .color2 .advs-box-side-icon i, .color2 .niche-box-testimonails h5, .color2 .title-icon i, .color2 .fullpage-menu.white li.active a i, .color2 .timeline > li > .timeline-label h4, .color2 .anima-button i, .color2 .pricing-table .list-group-item.pricing-price, .color2 .footer-center .footer-title, .color2 .accordion-list .list-group-item > a.active, .color2 .btn-border, .color2 .btn.btn-border, .color2 .btn.circle-button.btn-border, .color2 footer a:hover, .color2 .block-quote.quote-1:before, .color2 .block-quote.quote-2:before, .color2 .breadcrumb > li + li:before, .color2 .adv-img-full-content p.sub {
+    color: #f24c03;
+}
+.color2 .circle-button, .color2 .btn-default, .color2 .white .btn:not(.btn-border), .color2 .btn-border, .color2 .bg-transparent .navbar-nav > li.active > a .caret:before, .color2 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color2 .white .btn-text, .color2 .scroll-top-mobile:hover:before, .color2 .tab-box.left:not(.pills) .panel-box, .color2 .tab-box.right:not(.pills) .panel-box, .color2 .tab-box.right .nav-tabs {
+    border-color: #467dc2 !important;
+}
+.color2 .boxed.advs-box-multiple .advs-box-content, .color2 .niche-box-post, .color2 .extra-content, .color2 .quote-author, .color2 .border-color, .color2 .border-color.boxed-border.boxed-border.white, .color2 .img-border, .color2 .timeline > li > .timeline-badge, .color2 body div.boxed-border.border-yellow, .color2 .pagination li.active a {
+    border-color: #0058c2 !important;
+}
+.color2 .text-color {
+    color: #467dc2;
+    font-weight: 400;
+}
+.color2 .btn-border:hover, .color2 .btn.btn-border:hover, .color2 .btn.circle-button.btn-border:hover, .color2 .tag-row i {
+    color: #0058c2;
+}
+
+.color2 .btn-border:hover i, .color2 .white .btn i {
+    color: #467dc2 !important;
+}
+.color2 .btn:not(.btn-border):hover, .color2 .btn-primary:focus, .color2 .boxed .btn, .color2 .btn-primary.focus, .color2 .side-menu .active,
+.color2 .white.circle-button:hover, .color2 .woocommerce #respond input#submit.alt:hover, .color2 .woocommerce a.button.alt:hover, .color2 .woocommerce button.button.alt:hover,
+.color2 .woocommerce input.button.alt:hover, .color2 .white .title-base.yellow-bar hr {
+    background-color: #0058c2 !important;
+}
+.color2 .circle-button:hover, .color2 .btn:hover {
+    border-color: #0058c2 !important;
+}
+.color2 .circle-button, .color2 .btn.circle-button, .color2 .btn 
+{
+    background-color: #467dc2 !important;
+    color: #fff !important;
+}
+.color2 .title-base hr {
+    background-color: #467dc2;
+}
+.color2 [class*="col-md-"].boxed.bg2
+{
+    background-color: #f44b00;
+    color: #000;
+}
+/* Fin color2 */
+/* color3 */
+.navbar-default .navbar-nav > .color3.active > a, .dropdown-menu > li.color3 > a:hover, .dropdown-menu > li.color3 > a:focus, .navbar-nav > li.color3:hover > a, .navbar-default .navbar-nav > li.color3 > a:hover, .dropdown-menu ul > li.color3:hover > a, .nav.inner {
+    color: #05dfff;
+}
+.color3 .extra-content, .color3 .nav:not(.ms-rounded) li > a:before, .color3 .boxed.advs-box-top-icon-img .advs-box-content, .color3 [class*="col-md-"].boxed, .color3 .advs-box-side-img hr, .color3 .mi-menu .sidebar-nav, .color3 .advs-box-top-icon-img.niche-box-post:after, .color3 .accordion-list .list-group-item:before, .color3 [class*=header-] .title-base h1:before, .color3 .woocommerce .product span.onsale, .color3 .circle-button, .color3 .btn.circle-button, .color3 .btn, .color3 .header-bootstrap, .color3 .header-title hr, .color3 .advs-box.boxed, .color3 .intro-box:after, .color3 .intro-box:before, .color3 .advs-box-side-img hr, .color3 .call-action-box, .color3 .title-base hr, .color3 .nav.inner.ms-mini, .color3 .bg-color, .color3 .header-title.white .title-base hr, .color3 .header-animation.white .title-base hr, .color3 .title-base .scroll-top, .color3 .title-modern .scroll-top, .color3 i.square, .color3 .header-base, .color3 .progress-bar, .color3 .tagbox span, .color3 .niche-box-post .block-infos .block-data, .color3 .header-base .title-base h1:before 
+{
+    background-color: #05dfff;
+}
+.color3 i.icon, .color3 .fullpage-menu .active i, .color3 .navbar-default .navbar-toggle:hover i, .color3 .navbar-default .navbar-toggle:focus i, .color3 header .side-menu .active > a, .color3 .adv-img-button-content .caption i, .color3 .icon-menu ul.nav > li.active > a i, .color3 .icon-menu ul.nav > li:hover > a i, .color3 .active .maso-order i, .color3 .btn.btn-border i, .color3 .advs-box-top-icon:not(.boxed) i.icon, .color3 .datepicker-panel > ul > li.picked, .color3 .tab-box .nav-tabs > li.active > a, .color3 .advs-box-content h2:hover a, .color3 .pricing-table .pricing-price span, .color3 .datepicker-panel > ul > li.picked:hover, .color3 footer h4, .color3 .box-menu-inner .icon-box i, .color3 .caption-bottom p, .color3 .mi-menu li .fa, .color3 .fullpage-arrow.arrow-circle .arrow i, .color3 .accordion-list .list-group-item > a i, .color3 .mega-menu .fa-ul .fa-li, .color3 .adv-circle.adv-circle-center i, .color3 .mi-menu a > .fa, .color3 .box-steps .step-item:after, .color3 .box-steps .step-number, .color3 h6, .color3 li.panel-item .fa-li, .color3 .icon-menu .navbar-collapse ul.nav i, .color3 .side-menu i, .color3 .side-menu ul a i, .color3 .bs-menu li:hover > a, .color3 .bs-menu li.active > a, .color3 .hamburger-button:hover, .color3 .img-box.adv-circle i, .color3 .advs-box-side .icon, .color3 .advs-box-side-icon i, .color3 .niche-box-testimonails h5, .color3 .title-icon i, .color3 .fullpage-menu.white li.active a i, .color3 .timeline > li > .timeline-label h4, .color3 .anima-button i, .color3 .pricing-table .list-group-item.pricing-price, .color3 .footer-center .footer-title, .color3 .accordion-list .list-group-item > a.active, .color3 .btn-border, .color3 .btn.btn-border, .color3 .btn.circle-button.btn-border, .color3 footer a:hover, .color3 .block-quote.quote-1:before, .color3 .block-quote.quote-2:before, .color3 .breadcrumb > li + li:before, .color3 .adv-img-full-content p.sub {
+    color: #05dfff;
+}
+.color3 .circle-button, .color3 .btn-default, .color3 .white .btn:not(.btn-border), .color3 .btn-border, .color3 .bg-transparent .navbar-nav > li.active > a .caret:before, .color3 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color3 .white .btn-text, .color3 .scroll-top-mobile:hover:before, .color3 .tab-box.left:not(.pills) .panel-box, .color3 .tab-box.right:not(.pills) .panel-box, .color3 .tab-box.right .nav-tabs {
+    border-color: #4e24b8 !important;
+}
+.color3 .boxed.advs-box-multiple .advs-box-content, .color3 .niche-box-post, .color3 .extra-content, .color3 .quote-author, .color3 .border-color, .color3 .border-color.boxed-border.boxed-border.white, .color3 .img-border, .color3 .timeline > li > .timeline-badge, .color3 body div.boxed-border.border-yellow, .color3 .pagination li.active a {
+    border-color: #05dfff !important;
+}
+.color3 .text-color {
+    color: #4e24b8;
+    font-weight: 400;
+}
+.color3 .btn-border:hover, .color3 .btn.btn-border:hover, .color3 .btn.circle-button.btn-border:hover, .color3 .tag-row i {
+    color: #05dfff;
+}
+
+.color3 .btn-border:hover i, .color3 .white .btn i {
+    color: #4e24b8 !important;
+}
+.color3 .btn:not(.btn-border):hover, .color3 .btn-primary:focus, .color3 .boxed .btn, .color3 .btn-primary.focus, .color3 .side-menu .active,
+.color3 .white.circle-button:hover, .color3 .woocommerce #respond input#submit.alt:hover, .color3 .woocommerce a.button.alt:hover, .color3 .woocommerce button.button.alt:hover,
+.color3 .woocommerce input.button.alt:hover, .color3 .white .title-base.yellow-bar hr {
+    background-color: #05dfff !important;
+}
+.color3 .circle-button:hover, .color3 .btn:hover {
+    border-color: #05dfff !important;
+}
+.color3 .circle-button, .color3 .btn.circle-button, .color3 .btn 
+{
+    background-color: #4e24b8 !important;
+    color: #fff !important;
+}
+.color3 [class*="col-md-"].boxed,
+.color3 .title-base hr {
+    background-color: #4e24b8;
+}
+.color3 [class*="col-md-"].boxed.bg2 {
+    background-color: #05dfff;
+}
+/* Fin color3 */
+/* color4 */
+.navbar-default .navbar-nav > .color4.active > a, .dropdown-menu > li.color4 > a:hover, .dropdown-menu > li.color4 > a:focus, .navbar-nav > li.color4:hover > a, .navbar-default .navbar-nav > li.color4 > a:hover, .dropdown-menu ul > li.color4:hover > a, .nav.inner {
+    color: #ef3b8f;
+}
+.color4 .extra-content, .color4 .nav:not(.ms-rounded) li > a:before, .color4 .boxed.advs-box-top-icon-img .advs-box-content, .color4 [class*="col-md-"].boxed, .color4 .advs-box-side-img hr, .color4 .mi-menu .sidebar-nav, .color4 .advs-box-top-icon-img.niche-box-post:after, .color4 .accordion-list .list-group-item:before, .color4 [class*=header-] .title-base h1:before, .color4 .woocommerce .product span.onsale, .color4 .circle-button, .color4 .btn.circle-button, .color4 .btn, .color4 .header-bootstrap, .color4 .header-title hr, .color4 .advs-box.boxed, .color4 .intro-box:after, .color4 .intro-box:before, .color4 .advs-box-side-img hr, .color4 .call-action-box, .color4 .title-base hr, .color4 .nav.inner.ms-mini, .color4 .bg-color, .color4 .header-title.white .title-base hr, .color4 .header-animation.white .title-base hr, .color4 .title-base .scroll-top, .color4 .title-modern .scroll-top, .color4 i.square, .color4 .header-base, .color4 .progress-bar, .color4 .tagbox span, .color4 .niche-box-post .block-infos .block-data, .color4 .header-base .title-base h1:before 
+{
+    background-color: #ef3b8f;
+}
+.color4 i.icon, .color4 .fullpage-menu .active i, .color4 .navbar-default .navbar-toggle:hover i, .color4 .navbar-default .navbar-toggle:focus i, .color4 header .side-menu .active > a, .color4 .adv-img-button-content .caption i, .color4 .icon-menu ul.nav > li.active > a i, .color4 .icon-menu ul.nav > li:hover > a i, .color4 .active .maso-order i, .color4 .btn.btn-border i, .color4 .advs-box-top-icon:not(.boxed) i.icon, .color4 .datepicker-panel > ul > li.picked, .color4 .tab-box .nav-tabs > li.active > a, .color4 .advs-box-content h2:hover a, .color4 .pricing-table .pricing-price span, .color4 .datepicker-panel > ul > li.picked:hover, .color4 footer h4, .color4 .box-menu-inner .icon-box i, .color4 .caption-bottom p, .color4 .mi-menu li .fa, .color4 .fullpage-arrow.arrow-circle .arrow i, .color4 .accordion-list .list-group-item > a i, .color4 .mega-menu .fa-ul .fa-li, .color4 .adv-circle.adv-circle-center i, .color4 .mi-menu a > .fa, .color4 .box-steps .step-item:after, .color4 .box-steps .step-number, .color4 h6, .color4 li.panel-item .fa-li, .color4 .icon-menu .navbar-collapse ul.nav i, .color4 .side-menu i, .color4 .side-menu ul a i, .color4 .bs-menu li:hover > a, .color4 .bs-menu li.active > a, .color4 .hamburger-button:hover, .color4 .img-box.adv-circle i, .color4 .advs-box-side .icon, .color4 .advs-box-side-icon i, .color4 .niche-box-testimonails h5, .color4 .title-icon i, .color4 .fullpage-menu.white li.active a i, .color4 .timeline > li > .timeline-label h4, .color4 .anima-button i, .color4 .pricing-table .list-group-item.pricing-price, .color4 .footer-center .footer-title, .color4 .accordion-list .list-group-item > a.active, .color4 .btn-border, .color4 .btn.btn-border, .color4 .btn.circle-button.btn-border, .color4 footer a:hover, .color4 .block-quote.quote-1:before, .color4 .block-quote.quote-2:before, .color4 .breadcrumb > li + li:before, .color4 .adv-img-full-content p.sub {
+    color: #ef3b8f;
+}
+.color4 .circle-button, .color4 .btn-default, .color4 .white .btn:not(.btn-border), .color4 .btn-border, .color4 .bg-transparent .navbar-nav > li.active > a .caret:before, .color4 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color4 .white .btn-text, .color4 .scroll-top-mobile:hover:before, .color4 .tab-box.left:not(.pills) .panel-box, .color4 .tab-box.right:not(.pills) .panel-box, .color4 .tab-box.right .nav-tabs {
+    border-color: #03aaec !important;
+}
+.color4 .boxed.advs-box-multiple .advs-box-content, .color4 .niche-box-post, .color4 .extra-content, .color4 .quote-author, .color4 .border-color, .color4 .border-color.boxed-border.boxed-border.white, .color4 .img-border, .color4 .timeline > li > .timeline-badge, .color4 body div.boxed-border.border-yellow, .color4 .pagination li.active a {
+    border-color: #ef3b8f !important;
+}
+.color4 .text-color {
+    color: #03aaec;
+    font-weight: 400;
+}
+.color4 .btn-border:hover, .color4 .btn.btn-border:hover, .color4 .btn.circle-button.btn-border:hover, .color4 .tag-row i {
+    color: #ef3b8f;
+}
+
+.color4 .btn-border:hover i, .color4 .white .btn i {
+    color: #03aaec !important;
+}
+.color4 .btn:not(.btn-border):hover, .color4 .btn-primary:focus, .color4 .boxed .btn, .color4 .btn-primary.focus, .color4 .side-menu .active,
+.color4 .white.circle-button:hover, .color4 .woocommerce #respond input#submit.alt:hover, .color4 .woocommerce a.button.alt:hover, .color4 .woocommerce button.button.alt:hover,
+.color4 .woocommerce input.button.alt:hover, .color4 .white .title-base.yellow-bar hr {
+    background-color: #ef3b8f !important;
+}
+.color4 .circle-button:hover, .color4 .btn:hover {
+    border-color: #ef3b8f !important;
+}
+.color4 .circle-button, .color4 .btn.circle-button, .color4 .btn 
+{
+    background-color: #03aaec !important;
+    color: #fff !important;
+}
+.color4 [class*="col-md-"].boxed,
+.color4 .title-base hr {
+    background-color: #03aaec;
+}
+.color4 [class*="col-md-"].boxed.bg2 {
+    background-color: #ef3b8f;
+}
+/* Fin color4 */
+/* color5 */
+.navbar-default .navbar-nav > .color5.active > a, .dropdown-menu > li.color5 > a:hover, .dropdown-menu > li.color5 > a:focus, .navbar-nav > li.color5:hover > a, .navbar-default .navbar-nav > li.color5 > a:hover, .dropdown-menu ul > li.color5:hover > a, .nav.inner {
+    color: #f24c03;
+}
+.color5 .extra-content, .color5 .nav:not(.ms-rounded) li > a:before, .color5 .boxed.advs-box-top-icon-img .advs-box-content, .color5 [class*="col-md-"].boxed, .color5 .advs-box-side-img hr, .color5 .mi-menu .sidebar-nav, .color5 .advs-box-top-icon-img.niche-box-post:after, .color5 .accordion-list .list-group-item:before, .color5 [class*=header-] .title-base h1:before, .color5 .woocommerce .product span.onsale, .color5 .circle-button, .color5 .btn.circle-button, .color5 .btn, .color5 .header-bootstrap, .color5 .header-title hr, .color5 .advs-box.boxed, .color5 .intro-box:after, .color5 .intro-box:before, .color5 .advs-box-side-img hr, .color5 .call-action-box, .color5 .title-base hr, .color5 .nav.inner.ms-mini, .color5 .bg-color, .color5 .header-title.white .title-base hr, .color5 .header-animation.white .title-base hr, .color5 .title-base .scroll-top, .color5 .title-modern .scroll-top, .color5 i.square, .color5 .header-base, .color5 .progress-bar, .color5 .tagbox span, .color5 .niche-box-post .block-infos .block-data, .color5 .header-base .title-base h1:before 
+{
+    background-color: #f24c03;
+}
+.color5 i.icon, .color5 .fullpage-menu .active i, .color5 .navbar-default .navbar-toggle:hover i, .color5 .navbar-default .navbar-toggle:focus i, .color5 header .side-menu .active > a, .color5 .adv-img-button-content .caption i, .color5 .icon-menu ul.nav > li.active > a i, .color5 .icon-menu ul.nav > li:hover > a i, .color5 .active .maso-order i, .color5 .btn.btn-border i, .color5 .advs-box-top-icon:not(.boxed) i.icon, .color5 .datepicker-panel > ul > li.picked, .color5 .tab-box .nav-tabs > li.active > a, .color5 .advs-box-content h2:hover a, .color5 .pricing-table .pricing-price span, .color5 .datepicker-panel > ul > li.picked:hover, .color5 footer h4, .color5 .box-menu-inner .icon-box i, .color5 .caption-bottom p, .color5 .mi-menu li .fa, .color5 .fullpage-arrow.arrow-circle .arrow i, .color5 .accordion-list .list-group-item > a i, .color5 .mega-menu .fa-ul .fa-li, .color5 .adv-circle.adv-circle-center i, .color5 .mi-menu a > .fa, .color5 .box-steps .step-item:after, .color5 .box-steps .step-number, .color5 h6, .color5 li.panel-item .fa-li, .color5 .icon-menu .navbar-collapse ul.nav i, .color5 .side-menu i, .color5 .side-menu ul a i, .color5 .bs-menu li:hover > a, .color5 .bs-menu li.active > a, .color5 .hamburger-button:hover, .color5 .img-box.adv-circle i, .color5 .advs-box-side .icon, .color5 .advs-box-side-icon i, .color5 .niche-box-testimonails h5, .color5 .title-icon i, .color5 .fullpage-menu.white li.active a i, .color5 .timeline > li > .timeline-label h4, .color5 .anima-button i, .color5 .pricing-table .list-group-item.pricing-price, .color5 .footer-center .footer-title, .color5 .accordion-list .list-group-item > a.active, .color5 .btn-border, .color5 .btn.btn-border, .color5 .btn.circle-button.btn-border, .color5 footer a:hover, .color5 .block-quote.quote-1:before, .color5 .block-quote.quote-2:before, .color5 .breadcrumb > li + li:before, .color5 .adv-img-full-content p.sub {
+    color: #f24c03;
+}
+.color5 .circle-button, .color5 .btn-default, .color5 .white .btn:not(.btn-border), .color5 .btn-border, .color5 .bg-transparent .navbar-nav > li.active > a .caret:before, .color5 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color5 .white .btn-text, .color5 .scroll-top-mobile:hover:before, .color5 .tab-box.left:not(.pills) .panel-box, .color5 .tab-box.right:not(.pills) .panel-box, .color5 .tab-box.right .nav-tabs {
+    border-color: #f24c03 !important;
+}
+.color5 .boxed.advs-box-multiple .advs-box-content, .color5 .niche-box-post, .color5 .extra-content, .color5 .quote-author, .color5 .border-color, .color5 .border-color.boxed-border.boxed-border.white, .color5 .img-border, .color5 .timeline > li > .timeline-badge, .color5 body div.boxed-border.border-yellow, .color5 .pagination li.active a {
+    border-color: #f24c03 !important;
+}
+.color5 .text-color {
+    color: #0017a3;
+    font-weight: 400;
+}
+.color5 .btn-border:hover, .color5 .btn.btn-border:hover, .color5 .btn.circle-button.btn-border:hover, .color5 .tag-row i {
+    color: #f24c03;
+}
+
+.color5 .btn-border:hover i, .color5 .white .btn i {
+    color: #0017a3 !important;
+}
+.color5 .btn:not(.btn-border):hover, .color5 .btn-primary:focus, .color5 .boxed .btn, .color5 .btn-primary.focus, .color5 .side-menu .active,
+.color5 .white.circle-button:hover, .color5 .woocommerce #respond input#submit.alt:hover, .color5 .woocommerce a.button.alt:hover, .color5 .woocommerce button.button.alt:hover,
+.color5 .woocommerce input.button.alt:hover, .color5 .white .title-base.yellow-bar hr {
+    background-color: #f24c03 !important;
+}
+.color5 .circle-button:hover, .color5 .btn:hover {
+    border-color: #f24c03 !important;
+}
+.color5 .circle-button, .color5 .btn.circle-button, .color5 .btn 
+{
+    background-color: #f24c03 !important;
+    color: #fff !important;
+}
+.color5 [class*="col-md-"].boxed,
+.color5 .title-base hr {
+    background-color: #0017a3;
+}
+/* Fin color5 */
+/* color6 */
+.navbar-default .navbar-nav > .color6.active > a, .dropdown-menu > li.color6 > a:hover, .dropdown-menu > li.color6 > a:focus, .navbar-nav > li.color6:hover > a, .navbar-default .navbar-nav > li.color6 > a:hover, .dropdown-menu ul > li.color6:hover > a, .nav.inner {
+    color: #0747e9;
+}
+.color6 .extra-content, .color6 .nav:not(.ms-rounded) li > a:before, .color6 .boxed.advs-box-top-icon-img .advs-box-content, .color6 [class*="col-md-"].boxed, .color6 .advs-box-side-img hr, .color6 .mi-menu .sidebar-nav, .color6 .advs-box-top-icon-img.niche-box-post:after, .color6 .accordion-list .list-group-item:before, .color6 [class*=header-] .title-base h1:before, .color6 .woocommerce .product span.onsale, .color6 .circle-button, .color6 .btn.circle-button, .color6 .btn, .color6 .header-bootstrap, .color6 .header-title hr, .color6 .advs-box.boxed, .color6 .intro-box:after, .color6 .intro-box:before, .color6 .advs-box-side-img hr, .color6 .call-action-box, .color6 .title-base hr, .color6 .nav.inner.ms-mini, .color6 .bg-color, .color6 .header-title.white .title-base hr, .color6 .header-animation.white .title-base hr, .color6 .title-base .scroll-top, .color6 .title-modern .scroll-top, .color6 i.square, .color6 .header-base, .color6 .progress-bar, .color6 .tagbox span, .color6 .niche-box-post .block-infos .block-data, .color6 .header-base .title-base h1:before 
+{
+    background-color: #0747e9;
+}
+.color6 i.icon, .color6 .fullpage-menu .active i, .color6 .navbar-default .navbar-toggle:hover i, .color6 .navbar-default .navbar-toggle:focus i, .color6 header .side-menu .active > a, .color6 .adv-img-button-content .caption i, .color6 .icon-menu ul.nav > li.active > a i, .color6 .icon-menu ul.nav > li:hover > a i, .color6 .active .maso-order i, .color6 .btn.btn-border i, .color6 .advs-box-top-icon:not(.boxed) i.icon, .color6 .datepicker-panel > ul > li.picked, .color6 .tab-box .nav-tabs > li.active > a, .color6 .advs-box-content h2:hover a, .color6 .pricing-table .pricing-price span, .color6 .datepicker-panel > ul > li.picked:hover, .color6 footer h4, .color6 .box-menu-inner .icon-box i, .color6 .caption-bottom p, .color6 .mi-menu li .fa, .color6 .fullpage-arrow.arrow-circle .arrow i, .color6 .accordion-list .list-group-item > a i, .color6 .mega-menu .fa-ul .fa-li, .color6 .adv-circle.adv-circle-center i, .color6 .mi-menu a > .fa, .color6 .box-steps .step-item:after, .color6 .box-steps .step-number, .color6 h6, .color6 li.panel-item .fa-li, .color6 .icon-menu .navbar-collapse ul.nav i, .color6 .side-menu i, .color6 .side-menu ul a i, .color6 .bs-menu li:hover > a, .color6 .bs-menu li.active > a, .color6 .hamburger-button:hover, .color6 .img-box.adv-circle i, .color6 .advs-box-side .icon, .color6 .advs-box-side-icon i, .color6 .niche-box-testimonails h5, .color6 .title-icon i, .color6 .fullpage-menu.white li.active a i, .color6 .timeline > li > .timeline-label h4, .color6 .anima-button i, .color6 .pricing-table .list-group-item.pricing-price, .color6 .footer-center .footer-title, .color6 .accordion-list .list-group-item > a.active, .color6 .btn-border, .color6 .btn.btn-border, .color6 .btn.circle-button.btn-border, .color6 footer a:hover, .color6 .block-quote.quote-1:before, .color6 .block-quote.quote-2:before, .color6 .breadcrumb > li + li:before, .color6 .adv-img-full-content p.sub {
+    color: #0747e9;
+}
+.color6 .circle-button, .color6 .btn-default, .color6 .white .btn:not(.btn-border), .color6 .btn-border, .color6 .bg-transparent .navbar-nav > li.active > a .caret:before, .color6 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color6 .white .btn-text, .color6 .scroll-top-mobile:hover:before, .color6 .tab-box.left:not(.pills) .panel-box, .color6 .tab-box.right:not(.pills) .panel-box, .color6 .tab-box.right .nav-tabs {
+    border-color: #002fcd !important;
+}
+.color6 .boxed.advs-box-multiple .advs-box-content, .color6 .niche-box-post, .color6 .extra-content, .color6 .quote-author, .color6 .border-color, .color6 .border-color.boxed-border.boxed-border.white, .color6 .img-border, .color6 .timeline > li > .timeline-badge, .color6 body div.boxed-border.border-yellow, .color6 .pagination li.active a {
+    border-color: #0747e9 !important;
+}
+.color6 .text-color {
+    color: #f5aa08;
+    font-weight: 400;
+}
+.color6 .btn-border:hover, .color6 .btn.btn-border:hover, .color6 .btn.circle-button.btn-border:hover, .color6 .tag-row i {
+    color: #0747e9;
+}
+
+.color6 .btn-border:hover i, .color6 .white .btn i {
+    color: #f5aa08 !important;
+}
+.color6 .btn:not(.btn-border):hover, .color6 .btn-primary:focus, .color6 .boxed .btn, .color6 .btn-primary.focus, .color6 .side-menu .active,
+.color6 .white.circle-button:hover, .color6 .woocommerce #respond input#submit.alt:hover, .color6 .woocommerce a.button.alt:hover, .color6 .woocommerce button.button.alt:hover,
+.color6 .woocommerce input.button.alt:hover, .color6 .white .title-base.yellow-bar hr {
+    background-color: #0747e9 !important;
+}
+.color6 .circle-button:hover, .color6 .btn:hover {
+    border-color: #0747e9 !important;
+}
+.color6 .circle-button, .color6 .btn.circle-button, .color6 .btn 
+{
+    background-color: #002fcd !important;
+    color: #fff !important;
+}
+.color6 [class*="col-md-"].boxed,
+.color6 .title-base hr {
+    background-color: #f5aa08;
+}
+.color6 .circle-button.bg-color, .color6 .btn.circle-button.bg-color, .color6 .btn.bg-color
+{
+    background: #f24c03 !important;
+}
+/* Fin color6 */
+/* color7 */
+.navbar-default .navbar-nav > .color7.active > a, .dropdown-menu > li.color7 > a:hover, .dropdown-menu > li.color7 > a:focus, .navbar-nav > li.color7:hover > a, .navbar-default .navbar-nav > li.color7 > a:hover, .dropdown-menu ul > li.color7:hover > a, .nav.inner {
+    color: #0016a3;
+}
+.color7 .extra-content, .color7 .nav:not(.ms-rounded) li > a:before, .color7 .boxed.advs-box-top-icon-img .advs-box-content, .color7 [class*="col-md-"].boxed, .color7 .advs-box-side-img hr, .color7 .mi-menu .sidebar-nav, .color7 .advs-box-top-icon-img.niche-box-post:after, .color7 .accordion-list .list-group-item:before, .color7 [class*=header-] .title-base h1:before, .color7 .woocommerce .product span.onsale, .color7 .circle-button, .color7 .btn.circle-button, .color7 .btn, .color7 .header-bootstrap, .color7 .header-title hr, .color7 .advs-box.boxed, .color7 .intro-box:after, .color7 .intro-box:before, .color7 .advs-box-side-img hr, .color7 .call-action-box, .color7 .title-base hr, .color7 .nav.inner.ms-mini, .color7 .bg-color, .color7 .header-title.white .title-base hr, .color7 .header-animation.white .title-base hr, .color7 .title-base .scroll-top, .color7 .title-modern .scroll-top, .color7 i.square, .color7 .header-base, .color7 .progress-bar, .color7 .tagbox span, .color7 .niche-box-post .block-infos .block-data, .color7 .header-base .title-base h1:before 
+{
+    background-color: #0016a3;
+}
+.color7 i.icon, .color7 .fullpage-menu .active i, .color7 .navbar-default .navbar-toggle:hover i, .color7 .navbar-default .navbar-toggle:focus i, .color7 header .side-menu .active > a, .color7 .adv-img-button-content .caption i, .color7 .icon-menu ul.nav > li.active > a i, .color7 .icon-menu ul.nav > li:hover > a i, .color7 .active .maso-order i, .color7 .btn.btn-border i, .color7 .advs-box-top-icon:not(.boxed) i.icon, .color7 .datepicker-panel > ul > li.picked, .color7 .tab-box .nav-tabs > li.active > a, .color7 .advs-box-content h2:hover a, .color7 .pricing-table .pricing-price span, .color7 .datepicker-panel > ul > li.picked:hover, .color7 footer h4, .color7 .box-menu-inner .icon-box i, .color7 .caption-bottom p, .color7 .mi-menu li .fa, .color7 .fullpage-arrow.arrow-circle .arrow i, .color7 .accordion-list .list-group-item > a i, .color7 .mega-menu .fa-ul .fa-li, .color7 .adv-circle.adv-circle-center i, .color7 .mi-menu a > .fa, .color7 .box-steps .step-item:after, .color7 .box-steps .step-number, .color7 h6, .color7 li.panel-item .fa-li, .color7 .icon-menu .navbar-collapse ul.nav i, .color7 .side-menu i, .color7 .side-menu ul a i, .color7 .bs-menu li:hover > a, .color7 .bs-menu li.active > a, .color7 .hamburger-button:hover, .color7 .img-box.adv-circle i, .color7 .advs-box-side .icon, .color7 .advs-box-side-icon i, .color7 .niche-box-testimonails h5, .color7 .title-icon i, .color7 .fullpage-menu.white li.active a i, .color7 .timeline > li > .timeline-label h4, .color7 .anima-button i, .color7 .pricing-table .list-group-item.pricing-price, .color7 .footer-center .footer-title, .color7 .accordion-list .list-group-item > a.active, .color7 .btn-border, .color7 .btn.btn-border, .color7 .btn.circle-button.btn-border, .color7 footer a:hover, .color7 .block-quote.quote-1:before, .color7 .block-quote.quote-2:before, .color7 .breadcrumb > li + li:before, .color7 .adv-img-full-content p.sub {
+    color: #0016a3;
+}
+.color7 .circle-button, .color7 .btn-default, .color7 .white .btn:not(.btn-border), .color7 .btn-border, .color7 .bg-transparent .navbar-nav > li.active > a .caret:before, .color7 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color7 .white .btn-text, .color7 .scroll-top-mobile:hover:before, .color7 .tab-box.left:not(.pills) .panel-box, .color7 .tab-box.right:not(.pills) .panel-box, .color7 .tab-box.right .nav-tabs {
+    border-color: #007eff !important;
+}
+.color7 .boxed.advs-box-multiple .advs-box-content, .color7 .niche-box-post, .color7 .extra-content, .color7 .quote-author, .color7 .border-color, .color7 .border-color.boxed-border.boxed-border.white, .color7 .img-border, .color7 .timeline > li > .timeline-badge, .color7 body div.boxed-border.border-yellow, .color7 .pagination li.active a {
+    border-color: #0016a3 !important;
+}
+.color7 .text-color {
+    color: #007eff;
+    font-weight: 400;
+}
+.color7 .btn-border:hover, .color7 .btn.btn-border:hover, .color7 .btn.circle-button.btn-border:hover, .color7 .tag-row i {
+    color: #0016a3;
+}
+
+.color7 .btn-border:hover i, .color7 .white .btn i {
+    color: #007eff !important;
+}
+.color7 .btn:not(.btn-border):hover, .color7 .btn-primary:focus, .color7 .boxed .btn, .color7 .btn-primary.focus, .color7 .side-menu .active,
+.color7 .white.circle-button:hover, .color7 .woocommerce #respond input#submit.alt:hover, .color7 .woocommerce a.button.alt:hover, .color7 .woocommerce button.button.alt:hover,
+.color7 .woocommerce input.button.alt:hover, .color7 .white .title-base.yellow-bar hr {
+    background-color: #0016a3 !important;
+}
+.color7 .circle-button:hover, .color7 .btn:hover {
+    border-color: #0016a3 !important;
+}
+.color7 .circle-button, .color7 .btn.circle-button, .color7 .btn 
+{
+    background-color: #007eff !important;
+    color: #fff !important;
+}
+.color7 [class*="col-md-"].boxed,
+.color7 .title-base hr {
+    background-color: #007eff;
+}
+.color7 [class*="col-md-"].boxed.bg2 {
+    background-color: #0016a3;
+}
+/* Fin color7 */
+/* color8 */
+.navbar-default .navbar-nav > .color8.active > a, .dropdown-menu > li.color8 > a:hover, .dropdown-menu > li.color8 > a:focus, .navbar-nav > li.color8:hover > a, .navbar-default .navbar-nav > li.color8 > a:hover, .dropdown-menu ul > li.color8:hover > a, .nav.inner {
+    color: #2ecbd6;
+}
+.color8 .extra-content, .color8 .nav:not(.ms-rounded) li > a:before, .color8 .boxed.advs-box-top-icon-img .advs-box-content, .color8 [class*="col-md-"].boxed, .color8 .advs-box-side-img hr, .color8 .mi-menu .sidebar-nav, .color8 .advs-box-top-icon-img.niche-box-post:after, .color8 .accordion-list .list-group-item:before, .color8 [class*=header-] .title-base h1:before, .color8 .woocommerce .product span.onsale, .color8 .circle-button, .color8 .btn.circle-button, .color8 .btn, .color8 .header-bootstrap, .color8 .header-title hr, .color8 .advs-box.boxed, .color8 .intro-box:after, .color8 .intro-box:before, .color8 .advs-box-side-img hr, .color8 .call-action-box, .color8 .title-base hr, .color8 .nav.inner.ms-mini, .color8 .bg-color, .color8 .header-title.white .title-base hr, .color8 .header-animation.white .title-base hr, .color8 .title-base .scroll-top, .color8 .title-modern .scroll-top, .color8 i.square, .color8 .header-base, .color8 .progress-bar, .color8 .tagbox span, .color8 .niche-box-post .block-infos .block-data, .color8 .header-base .title-base h1:before 
+{
+    background-color: #2ecbd6;
+}
+.color8 i.icon, .color8 .fullpage-menu .active i, .color8 .navbar-default .navbar-toggle:hover i, .color8 .navbar-default .navbar-toggle:focus i, .color8 header .side-menu .active > a, .color8 .adv-img-button-content .caption i, .color8 .icon-menu ul.nav > li.active > a i, .color8 .icon-menu ul.nav > li:hover > a i, .color8 .active .maso-order i, .color8 .btn.btn-border i, .color8 .advs-box-top-icon:not(.boxed) i.icon, .color8 .datepicker-panel > ul > li.picked, .color8 .tab-box .nav-tabs > li.active > a, .color8 .advs-box-content h2:hover a, .color8 .pricing-table .pricing-price span, .color8 .datepicker-panel > ul > li.picked:hover, .color8 footer h4, .color8 .box-menu-inner .icon-box i, .color8 .caption-bottom p, .color8 .mi-menu li .fa, .color8 .fullpage-arrow.arrow-circle .arrow i, .color8 .accordion-list .list-group-item > a i, .color8 .mega-menu .fa-ul .fa-li, .color8 .adv-circle.adv-circle-center i, .color8 .mi-menu a > .fa, .color8 .box-steps .step-item:after, .color8 .box-steps .step-number, .color8 h6, .color8 li.panel-item .fa-li, .color8 .icon-menu .navbar-collapse ul.nav i, .color8 .side-menu i, .color8 .side-menu ul a i, .color8 .bs-menu li:hover > a, .color8 .bs-menu li.active > a, .color8 .hamburger-button:hover, .color8 .img-box.adv-circle i, .color8 .advs-box-side .icon, .color8 .advs-box-side-icon i, .color8 .niche-box-testimonails h5, .color8 .title-icon i, .color8 .fullpage-menu.white li.active a i, .color8 .timeline > li > .timeline-label h4, .color8 .anima-button i, .color8 .pricing-table .list-group-item.pricing-price, .color8 .footer-center .footer-title, .color8 .accordion-list .list-group-item > a.active, .color8 .btn-border, .color8 .btn.btn-border, .color8 .btn.circle-button.btn-border, .color8 footer a:hover, .color8 .block-quote.quote-1:before, .color8 .block-quote.quote-2:before, .color8 .breadcrumb > li + li:before, .color8 .adv-img-full-content p.sub {
+    color: #2ecbd6;
+}
+.color8 .circle-button, .color8 .btn-default, .color8 .white .btn:not(.btn-border), .color8 .btn-border, .color8 .bg-transparent .navbar-nav > li.active > a .caret:before, .color8 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color8 .white .btn-text, .color8 .scroll-top-mobile:hover:before, .color8 .tab-box.left:not(.pills) .panel-box, .color8 .tab-box.right:not(.pills) .panel-box, .color8 .tab-box.right .nav-tabs {
+    border-color: #74d4db !important;
+}
+.color8 .boxed.advs-box-multiple .advs-box-content, .color8 .niche-box-post, .color8 .extra-content, .color8 .quote-author, .color8 .border-color, .color8 .border-color.boxed-border.boxed-border.white, .color8 .img-border, .color8 .timeline > li > .timeline-badge, .color8 body div.boxed-border.border-yellow, .color8 .pagination li.active a {
+    border-color: #2ecbd6 !important;
+}
+.color8 .text-color {
+    color: #74d4db;
+    font-weight: 400;
+}
+.color8 .btn-border:hover, .color8 .btn.btn-border:hover, .color8 .btn.circle-button.btn-border:hover, .color8 .tag-row i {
+    color: #2ecbd6;
+}
+i.icon, .fullpage-menu .active i, .navbar-default .navbar-toggle:hover i, .navbar-default .navbar-toggle:focus i, header .side-menu .active > a, .adv-img-button-content .caption i, .icon-menu ul.nav > li.active > a i, .icon-menu ul.nav > li:hover > a i, .active .maso-order i, .btn.btn-border i, .advs-box-top-icon:not(.boxed) i.icon, .datepicker-panel > ul > li.picked, .tab-box .nav-tabs > li.active > a, .advs-box-content h2:hover a, .pricing-table .pricing-price span, .datepicker-panel > ul > li.picked:hover, footer h4, .box-menu-inner .icon-box i, .caption-bottom p, .mi-menu li .fa, .fullpage-arrow.arrow-circle .arrow i, .accordion-list .list-group-item > a i, .mega-menu .fa-ul .fa-li, .adv-circle.adv-circle-center i, .mi-menu a > .fa, .box-steps .step-item:after, .box-steps .step-number, h6, li.panel-item .fa-li, .icon-menu .navbar-collapse ul.nav i, .side-menu i, .side-menu ul a i, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .advs-box-side .icon, .advs-box-side-icon i, .niche-box-testimonails h5, .title-icon i, i, .fullpage-menu.white li.active a i, .timeline > li > .timeline-label h4, .anima-button i, .pricing-table .list-group-item.pricing-price, .footer-center .footer-title, .accordion-list .list-group-item > a.active, .btn-border, .btn.btn-border, .btn.circle-button.btn-border, footer a:hover, .block-quote.quote-1:before, .block-quote.quote-2:before, .breadcrumb > li + li:before, .adv-img-full-content p.sub {
+    color: #2ecbd6;
+}
+
+.color8 .btn-border:hover i, .color8 .white .btn i {
+    color: #74d4db !important;
+}
+.color8 .btn:not(.btn-border):hover, .color8 .btn-primary:focus, .color8 .boxed .btn, .color8 .btn-primary.focus, .color8 .side-menu .active,
+.color8 .white.circle-button:hover, .color8 .woocommerce #respond input#submit.alt:hover, .color8 .woocommerce a.button.alt:hover, .color8 .woocommerce button.button.alt:hover,
+.color8 .woocommerce input.button.alt:hover, .color8 .white .title-base.yellow-bar hr {
+    background-color: #2ecbd6 !important;
+}
+.color8 .circle-button:hover, .color8 .btn:hover {
+    border-color: #2ecbd6 !important;
+}
+.color8 .circle-button, .color8 .btn.circle-button, .color8 .btn 
+{
+    background-color: #74d4db !important;
+    color: #fff !important;
+}
+.color8 [class*="col-md-"].boxed,
+.color8 .title-base hr {
+    background-color: #74d4db;
+}
+/* Fin color8 */
+/* color9 */
+.navbar-default .navbar-nav > .color9.active > a, .dropdown-menu > li.color9 > a:hover, .dropdown-menu > li.color9 > a:focus, .navbar-nav > li.color9:hover > a, .navbar-default .navbar-nav > li.color9 > a:hover, .dropdown-menu ul > li.color9:hover > a, .nav.inner {
+    color: #000058;
+}
+.color9 .extra-content, .color9 .nav:not(.ms-rounded) li > a:before, .color9 .boxed.advs-box-top-icon-img .advs-box-content, .color9 [class*="col-md-"].boxed, .color9 .advs-box-side-img hr, .color9 .mi-menu .sidebar-nav, .color9 .advs-box-top-icon-img.niche-box-post:after, .color9 .accordion-list .list-group-item:before, .color9 [class*=header-] .title-base h1:before, .color9 .woocommerce .product span.onsale, .color9 .circle-button, .color9 .btn.circle-button, .color9 .btn, .color9 .header-bootstrap, .color9 .header-title hr, .color9 .advs-box.boxed, .color9 .intro-box:after, .color9 .intro-box:before, .color9 .advs-box-side-img hr, .color9 .call-action-box, .color9 .title-base hr, .color9 .nav.inner.ms-mini, .color9 .bg-color, .color9 .header-title.white .title-base hr, .color9 .header-animation.white .title-base hr, .color9 .title-base .scroll-top, .color9 .title-modern .scroll-top, .color9 i.square, .color9 .header-base, .color9 .progress-bar, .color9 .tagbox span, .color9 .niche-box-post .block-infos .block-data, .color9 .header-base .title-base h1:before 
+{
+    background-color: #000058;
+}
+.color9 i.icon, .color9 .fullpage-menu .active i, .color9 .navbar-default .navbar-toggle:hover i, .color9 .navbar-default .navbar-toggle:focus i, .color9 header .side-menu .active > a, .color9 .adv-img-button-content .caption i, .color9 .icon-menu ul.nav > li.active > a i, .color9 .icon-menu ul.nav > li:hover > a i, .color9 .active .maso-order i, .color9 .btn.btn-border i, .color9 .advs-box-top-icon:not(.boxed) i.icon, .color9 .datepicker-panel > ul > li.picked, .color9 .tab-box .nav-tabs > li.active > a, .color9 .advs-box-content h2:hover a, .color9 .pricing-table .pricing-price span, .color9 .datepicker-panel > ul > li.picked:hover, .color9 footer h4, .color9 .box-menu-inner .icon-box i, .color9 .caption-bottom p, .color9 .mi-menu li .fa, .color9 .fullpage-arrow.arrow-circle .arrow i, .color9 .accordion-list .list-group-item > a i, .color9 .mega-menu .fa-ul .fa-li, .color9 .adv-circle.adv-circle-center i, .color9 .mi-menu a > .fa, .color9 .box-steps .step-item:after, .color9 .box-steps .step-number, .color9 h6, .color9 li.panel-item .fa-li, .color9 .icon-menu .navbar-collapse ul.nav i, .color9 .side-menu i, .color9 .side-menu ul a i, .color9 .bs-menu li:hover > a, .color9 .bs-menu li.active > a, .color9 .hamburger-button:hover, .color9 .img-box.adv-circle i, .color9 .advs-box-side .icon, .color9 .advs-box-side-icon i, .color9 .niche-box-testimonails h5, .color9 .title-icon i, .color9 .fullpage-menu.white li.active a i, .color9 .timeline > li > .timeline-label h4, .color9 .anima-button i, .color9 .pricing-table .list-group-item.pricing-price, .color9 .footer-center .footer-title, .color9 .accordion-list .list-group-item > a.active, .color9 .btn-border, .color9 .btn.btn-border, .color9 .btn.circle-button.btn-border, .color9 footer a:hover, .color9 .block-quote.quote-1:before, .color9 .block-quote.quote-2:before, .color9 .breadcrumb > li + li:before, .color9 .adv-img-full-content p.sub {
+    color: #000058;
+}
+.color9 .circle-button, .color9 .btn-default, .color9 .white .btn:not(.btn-border), .color9 .btn-border, .color9 .bg-transparent .navbar-nav > li.active > a .caret:before, .color9 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color9 .white .btn-text, .color9 .scroll-top-mobile:hover:before, .color9 .tab-box.left:not(.pills) .panel-box, .color9 .tab-box.right:not(.pills) .panel-box, .color9 .tab-box.right .nav-tabs {
+    border-color: #002fcd !important;
+}
+.color9 .boxed.advs-box-multiple .advs-box-content, .color9 .niche-box-post, .color9 .extra-content, .color9 .quote-author, .color9 .border-color, .color9 .border-color.boxed-border.boxed-border.white, .color9 .img-border, .color9 .timeline > li > .timeline-badge, .color9 body div.boxed-border.border-yellow, .color9 .pagination li.active a {
+    border-color: #000058 !important;
+}
+.color9 .text-color {
+    color: #a21939;
+    font-weight: 400;
+}
+.color9 .btn-border:hover, .color9 .btn.btn-border:hover, .color9 .btn.circle-button.btn-border:hover, .color9 .tag-row i {
+    color: #000058;
+}
+i.icon, .fullpage-menu .active i, .navbar-default .navbar-toggle:hover i, .navbar-default .navbar-toggle:focus i, header .side-menu .active > a, .adv-img-button-content .caption i, .icon-menu ul.nav > li.active > a i, .icon-menu ul.nav > li:hover > a i, .active .maso-order i, .btn.btn-border i, .advs-box-top-icon:not(.boxed) i.icon, .datepicker-panel > ul > li.picked, .tab-box .nav-tabs > li.active > a, .advs-box-content h2:hover a, .pricing-table .pricing-price span, .datepicker-panel > ul > li.picked:hover, footer h4, .box-menu-inner .icon-box i, .caption-bottom p, .mi-menu li .fa, .fullpage-arrow.arrow-circle .arrow i, .accordion-list .list-group-item > a i, .mega-menu .fa-ul .fa-li, .adv-circle.adv-circle-center i, .mi-menu a > .fa, .box-steps .step-item:after, .box-steps .step-number, h6, li.panel-item .fa-li, .icon-menu .navbar-collapse ul.nav i, .side-menu i, .side-menu ul a i, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .advs-box-side .icon, .advs-box-side-icon i, .niche-box-testimonails h5, .title-icon i, i, .fullpage-menu.white li.active a i, .timeline > li > .timeline-label h4, .anima-button i, .pricing-table .list-group-item.pricing-price, .footer-center .footer-title, .accordion-list .list-group-item > a.active, .btn-border, .btn.btn-border, .btn.circle-button.btn-border, footer a:hover, .block-quote.quote-1:before, .block-quote.quote-2:before, .breadcrumb > li + li:before, .adv-img-full-content p.sub {
+    color: #000058;
+}
+
+.color9 .btn-border:hover i, .color9 .white .btn i {
+    color: #a21939 !important;
+}
+.color9 .btn:not(.btn-border):hover, .color9 .btn-primary:focus, .color9 .boxed .btn, .color9 .btn-primary.focus, .color9 .side-menu .active,
+.color9 .white.circle-button:hover, .color9 .woocommerce #respond input#submit.alt:hover, .color9 .woocommerce a.button.alt:hover, .color9 .woocommerce button.button.alt:hover,
+.color9 .woocommerce input.button.alt:hover, .color9 .white .title-base.yellow-bar hr {
+    background-color: #000058 !important;
+}
+.color9 .circle-button:hover, .color9 .btn:hover {
+    border-color: #000058 !important;
+}
+.color9 .circle-button, .color9 .btn.circle-button, .color9 .btn 
+{
+    background-color: #002fcd !important;
+    color: #fff !important;
+}
+.color9 [class*="col-md-"].boxed,
+.color9 .title-base hr {
+    background-color: #a21939;
+}
+/* Fin color9 */
+/* color10 */
+.navbar-default .navbar-nav > .color10.active > a, .dropdown-menu > li.color10 > a:hover, .dropdown-menu > li.color10 > a:focus, .navbar-nav > li.color10:hover > a, .navbar-default .navbar-nav > li.color10 > a:hover, .dropdown-menu ul > li.color10:hover > a, .nav.inner {
+    color: #2930b7;
+}
+.color10 .extra-content, .color10 .nav:not(.ms-rounded) li > a:before, .color10 .boxed.advs-box-top-icon-img .advs-box-content, .color10 [class*="col-md-"].boxed, .color10 .advs-box-side-img hr, .color10 .mi-menu .sidebar-nav, .color10 .advs-box-top-icon-img.niche-box-post:after, .color10 .accordion-list .list-group-item:before, .color10 [class*=header-] .title-base h1:before, .color10 .woocommerce .product span.onsale, .color10 .circle-button, .color10 .btn.circle-button, .color10 .btn, .color10 .header-bootstrap, .color10 .header-title hr, .color10 .advs-box.boxed, .color10 .intro-box:after, .color10 .intro-box:before, .color10 .advs-box-side-img hr, .color10 .call-action-box, .color10 .title-base hr, .color10 .nav.inner.ms-mini, .color10 .bg-color, .color10 .header-title.white .title-base hr, .color10 .header-animation.white .title-base hr, .color10 .title-base .scroll-top, .color10 .title-modern .scroll-top, .color10 i.square, .color10 .header-base, .color10 .progress-bar, .color10 .tagbox span, .color10 .niche-box-post .block-infos .block-data, .color10 .header-base .title-base h1:before 
+{
+    background-color: #2930b7;
+}
+.color10 i.icon, .color10 .fullpage-menu .active i, .color10 .navbar-default .navbar-toggle:hover i, .color10 .navbar-default .navbar-toggle:focus i, .color10 header .side-menu .active > a, .color10 .adv-img-button-content .caption i, .color10 .icon-menu ul.nav > li.active > a i, .color10 .icon-menu ul.nav > li:hover > a i, .color10 .active .maso-order i, .color10 .btn.btn-border i, .color10 .advs-box-top-icon:not(.boxed) i.icon, .color10 .datepicker-panel > ul > li.picked, .color10 .tab-box .nav-tabs > li.active > a, .color10 .advs-box-content h2:hover a, .color10 .pricing-table .pricing-price span, .color10 .datepicker-panel > ul > li.picked:hover, .color10 footer h4, .color10 .box-menu-inner .icon-box i, .color10 .caption-bottom p, .color10 .mi-menu li .fa, .color10 .fullpage-arrow.arrow-circle .arrow i, .color10 .accordion-list .list-group-item > a i, .color10 .mega-menu .fa-ul .fa-li, .color10 .adv-circle.adv-circle-center i, .color10 .mi-menu a > .fa, .color10 .box-steps .step-item:after, .color10 .box-steps .step-number, .color10 h6, .color10 li.panel-item .fa-li, .color10 .icon-menu .navbar-collapse ul.nav i, .color10 .side-menu i, .color10 .side-menu ul a i, .color10 .bs-menu li:hover > a, .color10 .bs-menu li.active > a, .color10 .hamburger-button:hover, .color10 .img-box.adv-circle i, .color10 .advs-box-side .icon, .color10 .advs-box-side-icon i, .color10 .niche-box-testimonails h5, .color10 .title-icon i, .color10 .fullpage-menu.white li.active a i, .color10 .timeline > li > .timeline-label h4, .color10 .anima-button i, .color10 .pricing-table .list-group-item.pricing-price, .color10 .footer-center .footer-title, .color10 .accordion-list .list-group-item > a.active, .color10 .btn-border, .color10 .btn.btn-border, .color10 .btn.circle-button.btn-border, .color10 footer a:hover, .color10 .block-quote.quote-1:before, .color10 .block-quote.quote-2:before, .color10 .breadcrumb > li + li:before, .color10 .adv-img-full-content p.sub {
+    color: #2930b7;
+}
+.color10 .circle-button, .color10 .btn-default, .color10 .white .btn:not(.btn-border), .color10 .btn-border, .color10 .bg-transparent .navbar-nav > li.active > a .caret:before, .color10 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color10 .white .btn-text, .color10 .scroll-top-mobile:hover:before, .color10 .tab-box.left:not(.pills) .panel-box, .color10 .tab-box.right:not(.pills) .panel-box, .color10 .tab-box.right .nav-tabs {
+    border-color: #392ed6 !important;
+}
+.color10 .boxed.advs-box-multiple .advs-box-content, .color10 .niche-box-post, .color10 .extra-content, .color10 .quote-author, .color10 .border-color, .color10 .border-color.boxed-border.boxed-border.white, .color10 .img-border, .color10 .timeline > li > .timeline-badge, .color10 body div.boxed-border.border-yellow, .color10 .pagination li.active a {
+    border-color: #2930b7 !important;
+}
+.color10 .text-color {
+    color: #392ed6;
+    font-weight: 400;
+}
+.color10 .btn-border:hover, .color10 .btn.btn-border:hover, .color10 .btn.circle-button.btn-border:hover, .color10 .tag-row i {
+    color: #2930b7;
+}
+i.icon, .fullpage-menu .active i, .navbar-default .navbar-toggle:hover i, .navbar-default .navbar-toggle:focus i, header .side-menu .active > a, .adv-img-button-content .caption i, .icon-menu ul.nav > li.active > a i, .icon-menu ul.nav > li:hover > a i, .active .maso-order i, .btn.btn-border i, .advs-box-top-icon:not(.boxed) i.icon, .datepicker-panel > ul > li.picked, .tab-box .nav-tabs > li.active > a, .advs-box-content h2:hover a, .pricing-table .pricing-price span, .datepicker-panel > ul > li.picked:hover, footer h4, .box-menu-inner .icon-box i, .caption-bottom p, .mi-menu li .fa, .fullpage-arrow.arrow-circle .arrow i, .accordion-list .list-group-item > a i, .mega-menu .fa-ul .fa-li, .adv-circle.adv-circle-center i, .mi-menu a > .fa, .box-steps .step-item:after, .box-steps .step-number, h6, li.panel-item .fa-li, .icon-menu .navbar-collapse ul.nav i, .side-menu i, .side-menu ul a i, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .advs-box-side .icon, .advs-box-side-icon i, .niche-box-testimonails h5, .title-icon i, i, .fullpage-menu.white li.active a i, .timeline > li > .timeline-label h4, .anima-button i, .pricing-table .list-group-item.pricing-price, .footer-center .footer-title, .accordion-list .list-group-item > a.active, .btn-border, .btn.btn-border, .btn.circle-button.btn-border, footer a:hover, .block-quote.quote-1:before, .block-quote.quote-2:before, .breadcrumb > li + li:before, .adv-img-full-content p.sub {
+    color: #2930b7;
+}
+
+.color10 .btn-border:hover i, .color10 .white .btn i {
+    color: #392ed6 !important;
+}
+.color10 .btn:not(.btn-border):hover, .color10 .btn-primary:focus, .color10 .boxed .btn, .color10 .btn-primary.focus, .color10 .side-menu .active,
+.color10 .white.circle-button:hover, .color10 .woocommerce #respond input#submit.alt:hover, .color10 .woocommerce a.button.alt:hover, .color10 .woocommerce button.button.alt:hover,
+.color10 .woocommerce input.button.alt:hover, .color10 .white .title-base.yellow-bar hr {
+    background-color: #2930b7 !important;
+}
+.color10 .circle-button:hover, .color10 .btn:hover {
+    border-color: #2930b7 !important;
+}
+.color10 .circle-button, .color10 .btn.circle-button, .color10 .btn 
+{
+    background-color: #392ed6 !important;
+    color: #fff !important;
+}
+.color10 [class*="col-md-"].boxed,
+.color10 .title-base hr {
+    background-color: #392ed6;
+}
+/* Fin color10 */
+/* color11 */
+.navbar-default .navbar-nav > .color11.active > a, .dropdown-menu > li.color11 > a:hover, .dropdown-menu > li.color11 > a:focus, .navbar-nav > li.color11:hover > a, .navbar-default .navbar-nav > li.color11 > a:hover, .dropdown-menu ul > li.color11:hover > a, .nav.inner {
+    color: #2930b7;
+}
+.color11 .extra-content, .color11 .nav:not(.ms-rounded) li > a:before, .color11 .boxed.advs-box-top-icon-img .advs-box-content, .color11 [class*="col-md-"].boxed, .color11 .advs-box-side-img hr, .color11 .mi-menu .sidebar-nav, .color11 .advs-box-top-icon-img.niche-box-post:after, .color11 .accordion-list .list-group-item:before, .color11 [class*=header-] .title-base h1:before, .color11 .woocommerce .product span.onsale, .color11 .circle-button, .color11 .btn.circle-button, .color11 .btn, .color11 .header-bootstrap, .color11 .header-title hr, .color11 .advs-box.boxed, .color11 .intro-box:after, .color11 .intro-box:before, .color11 .advs-box-side-img hr, .color11 .call-action-box, .color11 .title-base hr, .color11 .nav.inner.ms-mini, .color11 .bg-color, .color11 .header-title.white .title-base hr, .color11 .header-animation.white .title-base hr, .color11 .title-base .scroll-top, .color11 .title-modern .scroll-top, .color11 i.square, .color11 .header-base, .color11 .progress-bar, .color11 .tagbox span, .color11 .niche-box-post .block-infos .block-data, .color11 .header-base .title-base h1:before 
+{
+    background-color: #2930b7;
+}
+.color11 i.icon, .color11 .fullpage-menu .active i, .color11 .navbar-default .navbar-toggle:hover i, .color11 .navbar-default .navbar-toggle:focus i, .color11 header .side-menu .active > a, .color11 .adv-img-button-content .caption i, .color11 .icon-menu ul.nav > li.active > a i, .color11 .icon-menu ul.nav > li:hover > a i, .color11 .active .maso-order i, .color11 .btn.btn-border i, .color11 .advs-box-top-icon:not(.boxed) i.icon, .color11 .datepicker-panel > ul > li.picked, .color11 .tab-box .nav-tabs > li.active > a, .color11 .advs-box-content h2:hover a, .color11 .pricing-table .pricing-price span, .color11 .datepicker-panel > ul > li.picked:hover, .color11 footer h4, .color11 .box-menu-inner .icon-box i, .color11 .caption-bottom p, .color11 .mi-menu li .fa, .color11 .fullpage-arrow.arrow-circle .arrow i, .color11 .accordion-list .list-group-item > a i, .color11 .mega-menu .fa-ul .fa-li, .color11 .adv-circle.adv-circle-center i, .color11 .mi-menu a > .fa, .color11 .box-steps .step-item:after, .color11 .box-steps .step-number, .color11 h6, .color11 li.panel-item .fa-li, .color11 .icon-menu .navbar-collapse ul.nav i, .color11 .side-menu i, .color11 .side-menu ul a i, .color11 .bs-menu li:hover > a, .color11 .bs-menu li.active > a, .color11 .hamburger-button:hover, .color11 .img-box.adv-circle i, .color11 .advs-box-side .icon, .color11 .advs-box-side-icon i, .color11 .niche-box-testimonails h5, .color11 .title-icon i, .color11 .fullpage-menu.white li.active a i, .color11 .timeline > li > .timeline-label h4, .color11 .anima-button i, .color11 .pricing-table .list-group-item.pricing-price, .color11 .footer-center .footer-title, .color11 .accordion-list .list-group-item > a.active, .color11 .btn-border, .color11 .btn.btn-border, .color11 .btn.circle-button.btn-border, .color11 footer a:hover, .color11 .block-quote.quote-1:before, .color11 .block-quote.quote-2:before, .color11 .breadcrumb > li + li:before, .color11 .adv-img-full-content p.sub {
+    color: #2930b7;
+}
+.color11 .circle-button, .color11 .btn-default, .color11 .white .btn:not(.btn-border), .color11 .btn-border, .color11 .bg-transparent .navbar-nav > li.active > a .caret:before, .color11 .bg-transparent .navbar-nav > li:hover > a .caret:before, .color11 .white .btn-text, .color11 .scroll-top-mobile:hover:before, .color11 .tab-box.left:not(.pills) .panel-box, .color11 .tab-box.right:not(.pills) .panel-box, .color11 .tab-box.right .nav-tabs {
+    border-color: #004ef1 !important;
+}
+.color11 .boxed.advs-box-multiple .advs-box-content, .color11 .niche-box-post, .color11 .extra-content, .color11 .quote-author, .color11 .border-color, .color11 .border-color.boxed-border.boxed-border.white, .color11 .img-border, .color11 .timeline > li > .timeline-badge, .color11 body div.boxed-border.border-yellow, .color11 .pagination li.active a {
+    border-color: #2930b7 !important;
+}
+.color11 .text-color {
+    color: #96c400;
+    font-weight: 400;
+}
+.color11 .btn-border:hover, .color11 .btn.btn-border:hover, .color11 .btn.circle-button.btn-border:hover, .color11 .tag-row i {
+    color: #2930b7;
+}
+i.icon, .fullpage-menu .active i, .navbar-default .navbar-toggle:hover i, .navbar-default .navbar-toggle:focus i, header .side-menu .active > a, .adv-img-button-content .caption i, .icon-menu ul.nav > li.active > a i, .icon-menu ul.nav > li:hover > a i, .active .maso-order i, .btn.btn-border i, .advs-box-top-icon:not(.boxed) i.icon, .datepicker-panel > ul > li.picked, .tab-box .nav-tabs > li.active > a, .advs-box-content h2:hover a, .pricing-table .pricing-price span, .datepicker-panel > ul > li.picked:hover, footer h4, .box-menu-inner .icon-box i, .caption-bottom p, .mi-menu li .fa, .fullpage-arrow.arrow-circle .arrow i, .accordion-list .list-group-item > a i, .mega-menu .fa-ul .fa-li, .adv-circle.adv-circle-center i, .mi-menu a > .fa, .box-steps .step-item:after, .box-steps .step-number, h6, li.panel-item .fa-li, .icon-menu .navbar-collapse ul.nav i, .side-menu i, .side-menu ul a i, .bs-menu li:hover > a, .bs-menu li.active > a, .hamburger-button:hover, .img-box.adv-circle i, .advs-box-side .icon, .advs-box-side-icon i, .niche-box-testimonails h5, .title-icon i, i, .fullpage-menu.white li.active a i, .timeline > li > .timeline-label h4, .anima-button i, .pricing-table .list-group-item.pricing-price, .footer-center .footer-title, .accordion-list .list-group-item > a.active, .btn-border, .btn.btn-border, .btn.circle-button.btn-border, footer a:hover, .block-quote.quote-1:before, .block-quote.quote-2:before, .breadcrumb > li + li:before, .adv-img-full-content p.sub {
+    color: #2930b7;
+}
+
+.color11 .btn-border:hover i, .color11 .white .btn i {
+    color: #96c400 !important;
+}
+.color11 .btn:not(.btn-border):hover, .color11 .btn-primary:focus, .color11 .boxed .btn, .color11 .btn-primary.focus, .color11 .side-menu .active,
+.color11 .white.circle-button:hover, .color11 .woocommerce #respond input#submit.alt:hover, .color11 .woocommerce a.button.alt:hover, .color11 .woocommerce button.button.alt:hover,
+.color11 .woocommerce input.button.alt:hover, .color11 .white .title-base.yellow-bar hr {
+    background-color: #2930b7 !important;
+}
+.color11 .circle-button:hover, .color11 .btn:hover {
+    border-color: #2930b7 !important;
+}
+.color11 .circle-button, .color11 .btn.circle-button, .color11 .btn 
+{
+    background-color: #004ef1 !important;
+    color: #fff !important;
+}
+.color11 [class*="col-md-"].boxed,
+.color11 .title-base hr {
+    background-color: #96c400;
+}
+/* Fin color11 */
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.section-bg-image .text-xl {
+    line-height: 60px;
+    font-size: 55px !important;
+}
+.section-bg-image .text-color {
+    color: #FF5722;
+    font-weight: 600;
+}
+hr.space35 {
+    height: 35px;
+}
+.section-bg-image > .content {
+    padding-left: 100px;
+}
+.navbar-brand {
+    height: auto;
+}
+.bg-1 {
+    background-color: #f7fcff;
+}
+.header-base .title-base h1.color-white {
+    color: #fff;
+}
+.advs-box-top-icon .line-clamp {
+    margin-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box !important;
+    /* -webkit-line-clamp: 4; */
+    -webkit-box-orient: vertical;
+    min-height: 85px;
+    font-size: 15px;
+}
+.line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.navbar-mini .navbar-left span:first-child {
+    padding-left: 50px;
+}
+footer .tag-row span,
+footer .tag-row a {
+    color: #fff;
+}
+footer .social-group i.circle, 
+footer .social-button i.circle {
+    color: #fff;
+    border: 1px solid #fff;
+}
+.slide-box {
+    padding-top: 100px;
+    color: #fff;
+}
+[class*="row-"] .flexslider.advanced-slider .container-inner div {
+    height: inherit;
+}
+.btn.bg-color {
+    background: #f24c03 !important;
+}
+.btn.bg-color:hover {
+    background: #bb3901 !important;
+}
+.slide-box .text-xl {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+footer .copy-row .copy-text {
+    background: #003cc2;
+}
+.flexslider .slides img.img-index-box {
+    height: auto;
+    max-width: none;
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 35px);
+    width: auto !important;
+}
+@media (max-width: 767px) {
+#side {
+    display: none;
+}
+    .column-3,
+    .column-2 {
+        column-count: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-bg {
+    background: #0019ed;
+    padding: 15px;
+    color: #fff;
+}
+.height-box {
+    min-height: 187px;
+}
+.height-box p {
+    max-height: 52px;
+}
+.flexslider .advs-box-top-icon {
+    margin-top: 0px !important;
+}
+.color-white {
+    color: #fff !important;
+}
+.header-base .title-base p {
+    font-size: 17px;
+}
+.navbar-default .navbar-nav > li > a {
+    padding: 25px 6px;
+}
+@media (max-width: 1200px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 25px 5px;
+        font-size: 11px;
+    }
+    .navbar-mini:not(.hidden) + .navbar-main .navbar-header {
+        padding-right: 0;
+    }
+}
+
+.atelier .niche-box-post.boxed-inverse h2 {
+    margin-top: 5px;
+    font-size: 17px !important;
+    line-height: 20px;
+}
+.icon-box label {
+    color: #0005a6;
+}
+.icon-box p {
+    color: #5f5f5f;
+}
+.box-nous {
+    border-left: 2px solid #e4e2e2;
+    padding-left: 30px;
+    color: #131313;
+}
+.box-nous .title-base.text-left h2 {
+    color: #ff7f47;
+    font-weight: 600;
+}
+.box-nous .title-base.text-left p {
+    color: #2f2f2f;
+}
+h2.titre2 {
+    font-size: 23px;
+}
+footer {
+    background: url('images/plage.jpg');
+}
+.titre3 {
+    font-size: 15px;
+    min-height: 63px;
+    line-height: 21px;
+}
+.articles .advs-box a {
+    color: #0005a6;
+    font-weight: 400;
+}
+.ateliers {
+    background: #0017a3;
+    padding: 15px;
+}
+.ateliers .title-base hr {
+    background-color: #ffffff;
+}
+.ateliers .title-base h2 {
+    text-align: center;
+    color: white;
+}
+.ateliers .advs-box p a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.ateliers .btn-text {
+    color: #fff;
+    border-color: #fff;
+}
+.ouvrages .advs-box p a {
+    color: #00407b;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer #about .container {
+    padding: 10px 15px;
+    width: 850px;
+}
+.facebook-color {
+    color: #3b5998 !important;
+}
+.twitter-color {
+    color: #1dcaff !important;
+}
+.instagram-color {
+    color: #8a3ab9 !important;
+}
+.youtube-color {
+    color: #ff0000 !important;
+}
+.facebook-bg {
+    background-color: #3b5998 !important;
+    color: #fff !important;
+}
+.twitter-bg {
+    background-color: #1dcaff !important;
+    color: #fff !important;
+}
+.instagram-bg {
+    background-color: #8a3ab9 !important;
+    color: #fff !important;
+}
+.youtube-bg {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.color-1 {
+    color: #0538ca;
+}
+body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
+    color: #0005a6;
+}
+body, p {
+    font-size: 16px;
+    line-height: 25px;
+}
+.header-base {
+    min-height: 331px;
+}
+.block-quote.quote-2:after {
+    color: #f24c03;
+}
+.bg-white {
+    background: #fff;
+}
+.img-box-atelier {
+    box-shadow: 0px 0px 6px 2px #222;
+}
+.header-base h1.titre-center {
+    margin-top: 115px !important;
+    font-size: 40px;
+}
+.tous-droit-reserver {
+    font-size: 13px;
+    font-style: italic;
+}
+footer a:hover {
+    color: #2930b7 !important;
+}
+.header-base .title-base.mission p {
+    font-size: 20px;
+}
+.header-base .title-base h1 img {
+    position: relative;
+    top: -4px;
+}
+@media (min-width: 992px){
+    .container-box {
+        width: 970px;
+    }
+    .container-box-center {
+        width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.ateliers2 {
+    background: #0017a3c4;
+}
+.ateliers3 {
+    background: #03aaec;
+}
+.ateliers4 {
+    background: #007eff;
+}
+.ateliers5{
+    background: #0017a3;
+}
+.ateliers6 {
+    background: #4e24b8;
+}
+.ateliers3 p,
+.ateliers4 p,
+.ateliers5 p,
+.ateliers6 p {
+    text-transform: uppercase;
+}
+@media (min-width: 992px){
+    .ateliers3,
+    .ateliers4,
+    .ateliers5,
+    .ateliers6 {
+        min-height: 504px;
+    }
+}
+@media (min-width: 1200px){
+    .ateliers3,
+    .ateliers4,
+    .ateliers5,
+    .ateliers6 {
+        min-height: 501px;
+    }
+}
+.color1 .ateliers hr {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+@media (max-width: 992px){
+    .navbar-default .navbar-nav > li > a {
+        padding: 7px 5px;
+    }
+    .container,
+    .container-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .ateliers {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .marg-15-mobile {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	th { 
+		/* Behave  like a "row" */
+		display: none !important;
+	}
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+        padding-left: 50%;     
+        padding-top: 30px !important;
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(2):before { content: "Je le suis / je ne le suis pas"; }
+	td:nth-of-type(3):before { content: "Ce que j'améliore."; }
+	td:nth-of-type(4):before { content: "Ce que je ne sais pas être."; }
+	td:nth-of-type(5):before { content: "Ce que je veux être."; }
+	td:nth-of-type(6):before { content: "Ce que je fais pour l’être."; }
+}
