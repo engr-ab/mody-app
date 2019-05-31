@@ -1,36 +1,41 @@
 .my-main-menu{
     background: #008B8B !important;
-    
 }
 .my-main-menu  a{
     color:white !important;
     font-size:15px !important;
-
 }
 
+.my-main-menu  a:hover{
+    background:#4eeeee !important;
+    color:#008 !important;
+}
 .my-main-menu .inner-a{
     color:#008B8B !important;
 }
+.my-main-menu .inner-a:hover{
+    background:#4eeeee !important;
+    color:#008 !important;
+}
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .my-main-menu{
+    /* .my-main-menu{
         background: #008B8B !important;
         
-    }
+    } */
     .my-main-menu  a{
-        color:white !important;
+        
         font-size:20px !important;
-        padding:10px 10px !important;
+        padding:20px 10px !important;
     
     }
     
     .my-main-menu .inner-a{
-        color:#008B8B !important;
+        color:#008080 !important;
         background: white !important; 
+        padding-left:30px !important;
     }
-    .my-main-menu .inner-a:hover{
-        color:#008B8B !important;
-        background: white !important; 
-    }
+    
   }
