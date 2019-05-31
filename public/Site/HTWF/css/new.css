@@ -4,6 +4,7 @@
 .my-main-menu  a{
     color:white !important;
     font-size:14px !important;
+    
 }
 
 .my-main-menu  a:hover{
@@ -17,6 +18,21 @@
     background:#4eeeee !important;
     color:#008 !important;
 }
+
+ .my-main-menu .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    color:white;
+    margin-left:1px;
+    margin-bottom: 1px;
+  }
+  .my-main-menu i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    
+  }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
