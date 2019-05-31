@@ -48,5 +48,11 @@
         background: white !important; 
         padding-left:30px !important;
     }
+
+    .ateliers{
+     margin: auto;
+     padding: 10px;
+        width: 95%;
+    }
     
   }
