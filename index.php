@@ -1,0 +1,1 @@
+<?php   echo"<a href='/indechoex.html'>GO TO SITE</a> "; ?>
