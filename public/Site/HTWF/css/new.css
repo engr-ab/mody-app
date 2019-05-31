@@ -3,7 +3,7 @@
 }
 .my-main-menu  a{
     color:white !important;
-    font-size:15px !important;
+    font-size:14px !important;
 }
 
 .my-main-menu  a:hover{
@@ -18,13 +18,8 @@
     color:#008 !important;
 }
 
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    /* .my-main-menu{
-        background: #008B8B !important;
-        
-    } */
     .my-main-menu  a{
         
         font-size:20px !important;
