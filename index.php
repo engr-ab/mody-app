@@ -1,1 +1,1 @@
-<?php   echo"<a href='/indechoex.html'>GO TO SITE</a> "; ?>
+<?php   echo"<a href='/index.html'>GO TO SITE</a> "; ?>
