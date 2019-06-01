@@ -1,3 +1,6 @@
+.my-main-menu .icons-for-mobile-view{
+display:none !important;
+}
 .my-main-menu{
     background: #008B8B !important;
 }
@@ -14,6 +17,7 @@
 .my-main-menu .inner-a{
     color:#008B8B !important;
 }
+
 .my-main-menu .inner-a:hover{
     background:#4eeeee !important;
     color:#008 !important;
@@ -51,11 +55,20 @@
 
     .ateliers{
      
-     padding: 10px !important;
+        padding: 10px !important;
         width: 100% !important;
         padding:0 !important;
         margin:0 !important;
         padding:10px !important;
     }
-    
+    .my-main-menu .icons-for-mobile-view{
+        display:inline !important;
+        color:white !important;
+        padding-right:5px !important;
+        }
+        .my-main-menu .inner-a i{
+            display:inline !important;
+        color:#008080 !important;
+        padding-right:5px !important;
+        }
   }
