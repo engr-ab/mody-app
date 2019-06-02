@@ -72,7 +72,7 @@ display:none !important;
 @media only screen and (max-width: 768px) {
     .toggle-button-changes{
         float: left; 
-        margin-left:50px;
+        margin-left:30px;
         margin-top:20px !important;
     }
     .toggle-logo-changes{
